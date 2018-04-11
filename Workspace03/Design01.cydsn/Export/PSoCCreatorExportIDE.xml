@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="Design01" Path="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" Version="5.60" Type="Normal">
+  <Project Name="Design01" Path="G:\DSA\PORIGE\Workspace03\Design01.cydsn" Version="5.60" Type="Normal">
     <CMSIS_SVD_File>Design01.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,8 +34,8 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC5\Cm3Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="STRICT" Path="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn">
+      <Folder BuildType="STRICT" Path="G:\DSA\PORIGE\Workspace03\Design01.cydsn">
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">DSP.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
@@ -43,8 +43,8 @@
           <File BuildType="BUILD" Toolchain="">DSP.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn\Generated_Source\PSoC5">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn">
+      <Folder BuildType="STRICT" Path="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Generated_Source\PSoC5">
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cymetadata.c</File>
@@ -61,23 +61,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cydisabledsheets.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Inv_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Inv_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Inv_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\In1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\In1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\In1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Out1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Out1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Out1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_theACLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_SAR_1_theACLK.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC5\cm3gcc.ld</File>
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">Generated_Source\PSoC5\Cm3RealView.scat</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cm3Start.c</File>
@@ -140,57 +123,15 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW1_EN_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW1_EN.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW1_EN.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_C1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_C1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_C1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW2_EN_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW2_EN.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW2_EN.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_C2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_C2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_C2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ButtonSW1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ButtonSW1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ButtonSW1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Led1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Led1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Led1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar0_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar0.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar0.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref0_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref0.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref0.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cmod_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cmod.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cmod.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_7_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_7.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_7.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\VDAC8_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\VDAC8_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\VDAC8_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sel_Gen.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sel_Gen.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sel_Gen_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Timer_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_3.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USB_isr.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USB_isr.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_ep3_dma.c</File>
@@ -199,22 +140,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_ep2_dma.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_ep1_dma.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_ep1_dma.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Upr1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Upr1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Upr1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\GEN_ext_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\GEN_ext.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\GEN_ext.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\STOP_Reg.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\STOP_Reg.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\STOP_Reg_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SWReg.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SWReg.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Stop_ADC.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Stop_ADC.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Stop_ADC_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_isr_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SW_isr_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cy_em_eeprom.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\cy_em_eeprom.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ShiftReg_5.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ShiftReg_5.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ShiftReg_5_PM.c</File>
@@ -232,50 +159,50 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Count7_1_PM.c</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn\Export\ARM_GCC_Generic">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn">
+      <Folder BuildType="STRICT" Path="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Export\ARM_GCC_Generic">
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn\Export\ARM_MDK_Generic">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn">
+      <Folder BuildType="STRICT" Path="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Export\ARM_MDK_Generic">
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn\Export\ARM_IAR_Generic">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn">
+      <Folder BuildType="STRICT" Path="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Export\ARM_IAR_Generic">
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM4">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
-        <Files Root="C:\Users\andrianov\Documents\GitHub\PORIGE\Workspace03\Design01.cydsn" />
+        <Files Root="G:\DSA\PORIGE\Workspace03\Design01.cydsn" />
       </Folder>
     </Folders>
   </Project>

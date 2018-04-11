@@ -37,9 +37,7 @@
 <v>Workspace03\Design01\Source Files\main.c</v>
 <v>Workspace03\Design01\Generated_Source</v>
 <v>Workspace03\Design01\Generated_Source\PSoC5</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\SW_1</v>
 <v>Workspace03\Design01\Generated_Source\PSoC5\USBUART_1_Dp</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\VDAC8_1</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Workspace03</v>
@@ -64,33 +62,17 @@
 <v>Workspace03\Design01\Source Files\main.c</v>
 <v>Workspace03\Design01\Generated_Source</v>
 <v>Workspace03\Design01\Generated_Source\PSoC5</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\ADC_SAR_1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\ADC_SAR_1_IRQ</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\ADC_SAR_1_theACLK</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\ButtonSW1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Clock_1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Cmod</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Control_Reg_1</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Count7_1</v>
 <v>Workspace03\Design01\Generated_Source\PSoC5\cy_boot</v>
 <v>Workspace03\Design01\Generated_Source\PSoC5\Em_EEPROM_Dynamic</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\GEN_ext</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\In1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Led1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Out1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\PGA_Inv_1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Pin_7</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Ref0</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Ref1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Sar0</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Sar1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Sel_Gen</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\Stop_ADC</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\STOP_Reg</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\SW_1</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\SW_1\SW_1.c</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\SW_1\SW_1.h</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\SW_1\SW_1_aliases.h</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\SW_2</v>
-<v>Workspace03\Design01\Generated_Source\PSoC5\SW_C1</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Pin_1</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Pin_2</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Pin_3</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\ShiftReg_5</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\ShiftReg_6</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\ShiftReg_7</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\ShiftReg_8</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace03">
@@ -117,15 +99,11 @@
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_INT.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_IRQ.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_theACLK.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ButtonSW1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cmod.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Count7_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Count7_1_PM.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
@@ -137,34 +115,18 @@
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\DSP.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\GEN_ext.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\In1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Led1.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Out1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_7.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Ref0.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Ref1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sar0.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sar1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sel_Gen.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sel_Gen_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Stop_ADC.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Stop_ADC_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\STOP_Reg.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\STOP_Reg_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_2.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_C1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_C2.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_isr_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW1_EN.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW2_EN.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SWReg.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Upr1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Upr1_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_3.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_5.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_5_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_6.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_6_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_7.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_7_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_8.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_8_PM.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\USB_isr.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_1.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_1_audio.lst</v>
@@ -185,86 +147,9 @@
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_1_pm.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_1_std.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\USBUART_1_vnd.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\VDAC8_1_PM.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Design01.elf</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Design01.hex</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Design01.map</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SAR_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SAR_1_INT.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SAR_1_IRQ.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SAR_1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\ADC_SAR_1_theACLK.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\ButtonSW1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Clock_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Cm3Start.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Cmod.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\cy_em_eeprom.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\CyBootAsmGnu.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\CyDmac.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\cyfitter_cfg.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\CyFlash.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\CyLib.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\cymetadata.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\cyPm.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\CySpc.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\cyutils.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\DSP.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\GEN_ext.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\In1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Led1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\main.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Out1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\PGA_Inv_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\PGA_Inv_1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Pin_7.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Ref0.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Ref1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Sar0.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Sar1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Sel_Gen.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Sel_Gen_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Stop_ADC.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Stop_ADC_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\STOP_Reg.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\STOP_Reg_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SW_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SW_2.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SW_C1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SW_C2.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SW_isr_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SW1_EN.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SW2_EN.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\SWReg.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Upr1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\Upr1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USB_isr.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_audio.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_boot.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_cdc.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_cls.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_descr.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_Dm.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_Dp.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_drv.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_ep1_dma.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_ep2_dma.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_ep3_dma.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_episr.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_hid.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_midi.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_msc.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_pm.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_std.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\USBUART_1_vnd.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\VDAC8_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Listing Files\VDAC8_1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Design01.elf</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Design01.hex</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Release\Design01.map</v>
 <v>Workspace03\Design01\Design01.gpdsc</v>
 <v>Workspace03\Design01\Design01.rpt</v>
 <v>Workspace03\Design01\Design01_timing.html</v>
@@ -276,15 +161,11 @@
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_INT.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_IRQ.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_SAR_1_theACLK.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ButtonSW1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cmod.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Count7_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Count7_1_PM.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
@@ -296,29 +177,17 @@
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\DSP.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\GEN_ext.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\In1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Led1.lst</v>
 <v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Out1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\PGA_Inv_1_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_7.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Ref0.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Ref1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sar0.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sar1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sel_Gen.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Sel_Gen_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Stop_ADC.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Stop_ADC_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\STOP_Reg.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\STOP_Reg_PM.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_2.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_C1.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_C2.lst</v>
-<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_isr_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_2.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Pin_3.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_5.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_5_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_6.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_6_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_7.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_7_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ShiftReg_8.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -334,26 +203,23 @@
 <v>Workspace03\Design01\CY8C58LP Family Datasheet</v>
 <v>Workspace03\Design01\System Reference Guides</v>
 <v>Workspace03\Design01\System Reference Guides\cy_boot_v5_60</v>
-<v>Workspace03\Design01\Project Datasheet</v>
-<v>Workspace03\Design01\ADC_SAR_v3_0.pdf</v>
-<v>Workspace03\Design01\and_v1_0.pdf</v>
-<v>Workspace03\Design01\BasicCounter_v1_0.pdf</v>
+<v>Workspace03\Design01\and_v1_0</v>
+<v>Workspace03\Design01\and_v1_0\and_v1_0.pdf</v>
+<v>Workspace03\Design01\Count7_v1_0.pdf</v>
 <v>Workspace03\Design01\cy_clock_v2_20.pdf</v>
-<v>Workspace03\Design01\cy_constant_v1_0</v>
-<v>Workspace03\Design01\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
-<v>Workspace03\Design01\cy_isr_v1_70</v>
-<v>Workspace03\Design01\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Workspace03\Design01\cy_constant_v1_0.pdf</v>
+<v>Workspace03\Design01\cy_isr_v1_70.pdf</v>
 <v>Workspace03\Design01\cy_pins_v2_20</v>
 <v>Workspace03\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>Workspace03\Design01\cy_vref_v1_70.pdf</v>
-<v>Workspace03\Design01\CyControlReg_v1_80</v>
-<v>Workspace03\Design01\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
-<v>Workspace03\Design01\CyStatusReg_v1_90.pdf</v>
+<v>Workspace03\Design01\CyControlReg_v1_80.pdf</v>
+<v>Workspace03\Design01\cydff_v1_30</v>
+<v>Workspace03\Design01\cydff_v1_30\cydff_v1_30.pdf</v>
 <v>Workspace03\Design01\DigitalComp_v1_0.pdf</v>
+<v>Workspace03\Design01\LUT_v1_50.pdf</v>
 <v>Workspace03\Design01\not_v1_0.pdf</v>
-<v>Workspace03\Design01\PGA_Inv_v2_0.pdf</v>
+<v>Workspace03\Design01\ShiftReg_v2_30</v>
+<v>Workspace03\Design01\ShiftReg_v2_30\ShiftReg_v2_30.pdf</v>
 <v>Workspace03\Design01\USBFS_v3_20.pdf</v>
-<v>Workspace03\Design01\VDAC8_v1_90.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>Workspace03</v>
@@ -362,26 +228,23 @@
 <v>Workspace03\Design01\CY8C58LP Family Datasheet</v>
 <v>Workspace03\Design01\System Reference Guides</v>
 <v>Workspace03\Design01\System Reference Guides\cy_boot_v5_60</v>
-<v>Workspace03\Design01\Project Datasheet</v>
-<v>Workspace03\Design01\ADC_SAR_v3_0.pdf</v>
-<v>Workspace03\Design01\and_v1_0.pdf</v>
-<v>Workspace03\Design01\BasicCounter_v1_0.pdf</v>
+<v>Workspace03\Design01\and_v1_0</v>
+<v>Workspace03\Design01\and_v1_0\and_v1_0.pdf</v>
+<v>Workspace03\Design01\Count7_v1_0.pdf</v>
 <v>Workspace03\Design01\cy_clock_v2_20.pdf</v>
-<v>Workspace03\Design01\cy_constant_v1_0</v>
-<v>Workspace03\Design01\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
-<v>Workspace03\Design01\cy_isr_v1_70</v>
-<v>Workspace03\Design01\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>Workspace03\Design01\cy_constant_v1_0.pdf</v>
+<v>Workspace03\Design01\cy_isr_v1_70.pdf</v>
 <v>Workspace03\Design01\cy_pins_v2_20</v>
 <v>Workspace03\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
-<v>Workspace03\Design01\cy_vref_v1_70.pdf</v>
-<v>Workspace03\Design01\CyControlReg_v1_80</v>
-<v>Workspace03\Design01\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
-<v>Workspace03\Design01\CyStatusReg_v1_90.pdf</v>
+<v>Workspace03\Design01\CyControlReg_v1_80.pdf</v>
+<v>Workspace03\Design01\cydff_v1_30</v>
+<v>Workspace03\Design01\cydff_v1_30\cydff_v1_30.pdf</v>
 <v>Workspace03\Design01\DigitalComp_v1_0.pdf</v>
+<v>Workspace03\Design01\LUT_v1_50.pdf</v>
 <v>Workspace03\Design01\not_v1_0.pdf</v>
-<v>Workspace03\Design01\PGA_Inv_v2_0.pdf</v>
+<v>Workspace03\Design01\ShiftReg_v2_30</v>
+<v>Workspace03\Design01\ShiftReg_v2_30\ShiftReg_v2_30.pdf</v>
 <v>Workspace03\Design01\USBFS_v3_20.pdf</v>
-<v>Workspace03\Design01\VDAC8_v1_90.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -393,7 +256,6 @@
 <OpenDocs>
 <name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\Design01.cydsn\main.c" />
-<name v=".\Design01.cydsn\DSP.c" />
 <name v=".\Design01.cydsn\DSP.h" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
@@ -402,7 +264,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1254, 642" SelectedTabbedMdiWindow="89712599-f035-474b-ba8c-420e0bb7343f"><DocumentWindow Key="C:\Users\user\Documents\PSoC Creator\Workspace03\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="f5a93cd2-60b4-4992-a30a-26a6eb37880c" /><DocumentWindow Key="C:\Users\user\Documents\PSoC Creator\Workspace03\Design01.cydsn\main.c" Guid="89712599-f035-474b-ba8c-420e0bb7343f" /><DocumentWindow Key="C:\Users\user\Documents\PSoC Creator\Workspace03\Design01.cydsn\DSP.c" Guid="6473dbbc-b110-4cde-9881-805438c81a52" /><DocumentWindow Key="C:\Users\user\Documents\PSoC Creator\Workspace03\Design01.cydsn\DSP.h" Guid="6e557a16-4ee7-4858-ba82-da7f30e7db5e" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8f627d45-bc8c-4c1f-b1cb-4b4bb4e7f396" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1321, 642" SelectedTabbedMdiWindow="e4c44a8f-7c6c-4624-b486-01a1db5566da"><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="70971e52-c5a7-44de-acae-9a28f44dd0cd" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\main.c" Guid="e4c44a8f-7c6c-4624-b486-01a1db5566da" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\DSP.h" Guid="b9e45367-e9ff-4523-a13e-13b36e6a177b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Debug" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
