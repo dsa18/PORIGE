@@ -52,20 +52,22 @@ ShiftReg_8_Start();
 //04189  374BC6 -1000               32.2к                 2к                     90к                500к      
 //28F5C  28F5C2 -10000              333к                  20к
 //431A 3103AE   -                  32.26k                 1.049k                125к                 500k
-/// пауза
+/// пауза 0x0147AE 0x147AE1
 
 for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);
+//for (int i=0;i<0xFFFFFF;i++);
 /*for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);
 for (int i=0;i<0xFFFFFF;i++);*/
  USB_isr_Start();
     USB_isr_SetVector (USB_NeWk) ;
 //звгрузка
-    ShiftReg_5_Stop();
-    ShiftReg_6_Stop();
-ShiftReg_6_WriteData(0x28F5C);
-ShiftReg_5_WriteData(0x28F5C2);
+//    ShiftReg_5_Stop();
+ //   ShiftReg_6_Stop();
+        ShiftReg_5_Start();
+    ShiftReg_6_Start();
+
+ShiftReg_5_WriteData(0x353A2);
+ShiftReg_6_WriteData(0x3E83C9);
 
 /*
 for (int i=0;i<0xFFFFFF;i++);
@@ -75,8 +77,6 @@ for (int i=0;i<0xFFFFFF;i++);
 for (int i=0;i<0xFFFFFF;i++);
 for (int i=0;i<0xFFFFFF;i++);*/
                    
-    ShiftReg_5_Start();
-    ShiftReg_6_Start();
                     
                     Control_Reg_1_Write(0xFF)   ;
     for(;;)

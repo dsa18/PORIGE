@@ -1,7 +1,7 @@
-G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cyprj|70bbd790-b817-45a9-9015-f458d651cda2
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fa56d4df-b493-465a-9e21-362ad1b59426
-C:\Users\user\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|4742f80c-ffab-4691-a430-80bbb655f383
-C:\Users\user\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|7344e7df-e91f-4f2a-a441-24691ac4a6bd
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2d0c537f-2574-4dad-9c1c-79774a11cf21
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|29e2e6ca-5188-46c2-9a2d-73ce01240d61
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|9a291abe-8e5e-49f3-bb3f-21dfa87fee0f
+G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cyprj|39429d04-3a5b-4e95-b691-d7bb6ec6a04f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|9eeb6b73-7bd4-4ff5-868c-5aee81941405
+C:\Users\user\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|52b7b646-29f5-4829-88f5-a139664995ed
+C:\Users\user\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|71dd5ecd-a10a-4689-839d-2ca94dd81a46
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6ba55142-87ba-475d-931b-7f7cee1f7ddf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|6cb915e7-f62a-4885-8c0d-df5482d0a59f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f52e30fd-4f12-49e3-9a62-f977390f2d74
