@@ -345,6 +345,7 @@
 <name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\Design01.cydsn\main.c" />
 <name v=".\Design01.cydsn\DSP.h" />
+<name v=".\Design01.cydsn\Design01.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -352,7 +353,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1321, 642" SelectedTabbedMdiWindow="e4c44a8f-7c6c-4624-b486-01a1db5566da"><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="70971e52-c5a7-44de-acae-9a28f44dd0cd" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\main.c" Guid="e4c44a8f-7c6c-4624-b486-01a1db5566da" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\DSP.h" Guid="b9e45367-e9ff-4523-a13e-13b36e6a177b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1200, 646" SelectedTabbedMdiWindow="70971e52-c5a7-44de-acae-9a28f44dd0cd"><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="70971e52-c5a7-44de-acae-9a28f44dd0cd" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\main.c" Guid="e4c44a8f-7c6c-4624-b486-01a1db5566da" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\DSP.h" Guid="b9e45367-e9ff-4523-a13e-13b36e6a177b" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8f627d45-bc8c-4c1f-b1cb-4b4bb4e7f396" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cydwr" Guid="31433bc4-ffcc-41ff-b925-fa8c59a6a734" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Debug" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
