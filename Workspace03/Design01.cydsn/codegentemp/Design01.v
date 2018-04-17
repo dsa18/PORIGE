@@ -1,6 +1,6 @@
 // ======================================================================
 // Design01.v generated from TopDesign.cysch
-// 04/17/2018 at 14:07
+// 04/17/2018 at 14:30
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -1207,7 +1207,7 @@ module top ;
           wire  Net_996;
     electrical  Net_2138;
           wire  Net_2123;
-    electrical  Net_2135;
+    electrical  Net_2143;
           wire  Net_2022;
     electrical  Net_2021;
           wire  Net_2020;
@@ -1277,9 +1277,11 @@ module top ;
           wire  Net_1647;
           wire  Net_1646;
           wire  Net_1645;
+    electrical  Net_2159;
+    electrical  Net_2132;
+    electrical  Net_2145;
     electrical  Net_2014;
-    electrical  Net_1696;
-          wire  EN;
+          wire [1:0] EN;
     electrical  Net_1688;
           wire  Net_479;
           wire  Net_2059;
@@ -1294,7 +1296,7 @@ module top ;
     electrical  Net_1819;
     electrical  Net_1685;
           wire  Net_1973;
-    electrical  Net_2132;
+    electrical  Net_2158;
     electrical  Net_1709;
     electrical  Net_1708;
     electrical  Net_1707;
@@ -1575,7 +1577,7 @@ module top ;
         .control_1(Net_2044),
         .control_2(Net_2045),
         .control_3(Net_2046),
-        .control_0(EN),
+        .control_0(EN[0]),
         .control_4(Net_2047),
         .control_5(Net_2048),
         .control_6(Net_2049),
@@ -1659,7 +1661,7 @@ module top ;
             Net_1963
             }),
         .hw_ctrl_en(AMuxHw_1_Decoder_one_hot[3:0]),
-        .vout(Net_2132)
+        .vout(Net_2158)
         );
     
     // -- AMuxHw AMuxHw_1 end -- ***
@@ -1753,7 +1755,7 @@ module top ;
 
 
     PGA_Inv_v2_0_5 PGA_Channel1 (
-        .Vin(Net_1696),
+        .Vin(Net_2145),
         .Vref(Net_1685),
         .Vout(Net_1688));
 
@@ -1834,9 +1836,9 @@ module top ;
 	assign tmpOE__Vout_R1_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
 
     OpAmp_v1_90_6 Opamp_Channel1 (
-        .Vplus(Net_2132),
-        .Vout(Net_1696),
-        .Vminus(Net_2135));
+        .Vplus(Net_2159),
+        .Vout(Net_2145),
+        .Vminus(Net_2143));
     defparam Opamp_Channel1.Mode = 1;
 
     cy_annotation_universal_v1_0 GND_2 (
@@ -2279,6 +2281,30 @@ module top ;
 		Clock_1
 		 (.clock_out(Net_2059));
 
+
+
+    assign EN[1] = ~EN[0];
+
+    // -- AMuxHw AMuxHw_2 start -- ***
+    
+    // -- AMuxHw Primitive A --
+    
+    cy_psoc3_amux_v1_0 #(
+        .muxin_width(2),
+        .hw_control(1),
+        .one_active(0),
+        .init_mux_sel(2'h0),
+        .api_type(2'b10))
+        AMuxHw_2(
+        .muxin({
+            Net_2158,
+            Net_2159
+            }),
+        .hw_ctrl_en(EN[1:0]),
+        .vout(Net_2132)
+        );
+    
+    // -- AMuxHw AMuxHw_2 end -- ***
 
     OpAmp_v1_90_7 Opamp_Channel1_1 (
         .Vplus(Net_2014),

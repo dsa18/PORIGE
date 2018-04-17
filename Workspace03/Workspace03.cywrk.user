@@ -38,7 +38,41 @@
 <v>Workspace03\Design01\Generated_Source</v>
 <v>Workspace03\Design01\Generated_Source\PSoC5</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>Workspace03</v>
+<v>Workspace03\Design01</v>
+<v>Workspace03\Design01\TopDesign</v>
+<v>Workspace03\Design01\Design01.cydwr</v>
+<v>Workspace03\Design01\Design01.cydwr\Pins</v>
+<v>Workspace03\Design01\Design01.cydwr\Analog</v>
+<v>Workspace03\Design01\Design01.cydwr\Clocks</v>
+<v>Workspace03\Design01\Design01.cydwr\Interrupts</v>
+<v>Workspace03\Design01\Design01.cydwr\DMA</v>
+<v>Workspace03\Design01\Design01.cydwr\System</v>
+<v>Workspace03\Design01\Design01.cydwr\Directives</v>
+<v>Workspace03\Design01\Design01.cydwr\Flash Security</v>
+<v>Workspace03\Design01\Design01.cydwr\EEPROM</v>
+<v>Workspace03\Design01\Header Files</v>
+<v>Workspace03\Design01\Header Files\cyapicallbacks.h</v>
+<v>Workspace03\Design01\Header Files\DSP.h</v>
+<v>Workspace03\Design01\Header Files\res.h</v>
+<v>Workspace03\Design01\Source Files</v>
+<v>Workspace03\Design01\Source Files\DSP.c</v>
+<v>Workspace03\Design01\Source Files\main.c</v>
+<v>Workspace03\Design01\Generated_Source</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\ADC_Channel1</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\ADC_Channel1_IRQ</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\ADC_Channel1_theACLK</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Cap1_1</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Cap1_2</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Cap1_3</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Cap1_4</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Channel_1</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Channel1_R</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Clock_1</v>
+<v>Workspace03\Design01\Generated_Source\PSoC5\Control_Reg_1</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace03">
 <ExpandedNodeIds>
@@ -48,7 +82,13 @@
 <v>Workspace03\Design01\TopDesign\TopDesign.cysch</v>
 <v>Workspace03\Design01\TopDesign\TopDesign.cysym</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>Workspace03</v>
+<v>Workspace03\Design01</v>
+<v>Workspace03\Design01\TopDesign</v>
+<v>Workspace03\Design01\TopDesign\TopDesign.cysch</v>
+<v>Workspace03\Design01\TopDesign\TopDesign.cysym</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Workspace03">
 <ExpandedNodeIds>
@@ -136,7 +176,41 @@
 <v>Workspace03\Design01\Design01.rpt</v>
 <v>Workspace03\Design01\Design01_timing.html</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>Workspace03</v>
+<v>Workspace03\Design01</v>
+<v>Workspace03\Design01\CortexM3</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Channel1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Channel1_INT.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Channel1_IRQ.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Channel1_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\ADC_Channel1_theACLK.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cap1_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cap1_2.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cap1_3.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cap1_4.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Channel_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Channel1_R.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Count7_1.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\Count7_1_PM.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>Workspace03\Design01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
 <TreeKeysV2>
@@ -152,7 +226,8 @@
 <v>Workspace03\Design01\System Reference Guides</v>
 <v>Workspace03\Design01\System Reference Guides\cy_boot_v5_60</v>
 <v>Workspace03\Design01\ADC_SAR_v3_10.pdf</v>
-<v>Workspace03\Design01\AMuxHw_v1_50.pdf</v>
+<v>Workspace03\Design01\AMuxHw_v1_50</v>
+<v>Workspace03\Design01\AMuxHw_v1_50\AMuxHw_v1_50.pdf</v>
 <v>Workspace03\Design01\and_v1_0</v>
 <v>Workspace03\Design01\and_v1_0\and_v1_0.pdf</v>
 <v>Workspace03\Design01\BasicCounter_v1_0.pdf</v>
@@ -188,7 +263,41 @@
 <v>Workspace03\Design01\ShiftReg_v2_30\ShiftReg_v2_30.pdf</v>
 <v>Workspace03\Design01\USBFS_v3_20.pdf</v>
 </ExpandedNodeIds>
-<VisibleNodeIds />
+<VisibleNodeIds>
+<v>Workspace03</v>
+<v>Workspace03\Design01</v>
+<v>Workspace03\Design01\PSoC 5LP Architecture TRM</v>
+<v>Workspace03\Design01\CY8C58LP Family Datasheet</v>
+<v>Workspace03\Design01\System Reference Guides</v>
+<v>Workspace03\Design01\System Reference Guides\cy_boot_v5_60</v>
+<v>Workspace03\Design01\ADC_SAR_v3_10.pdf</v>
+<v>Workspace03\Design01\AMuxHw_v1_50</v>
+<v>Workspace03\Design01\AMuxHw_v1_50\AMuxHw_v1_50.pdf</v>
+<v>Workspace03\Design01\and_v1_0</v>
+<v>Workspace03\Design01\and_v1_0\and_v1_0.pdf</v>
+<v>Workspace03\Design01\BasicCounter_v1_0.pdf</v>
+<v>Workspace03\Design01\Capacitor_v1_0</v>
+<v>Workspace03\Design01\Capacitor_v1_0\Capacitor_v1_0.pdf</v>
+<v>Workspace03\Design01\Count7_v1_0.pdf</v>
+<v>Workspace03\Design01\cy_clock_v2_20</v>
+<v>Workspace03\Design01\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>Workspace03\Design01\cy_constant_v1_0</v>
+<v>Workspace03\Design01\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>Workspace03\Design01\cy_isr_v1_70.pdf</v>
+<v>Workspace03\Design01\cy_pins_v2_20</v>
+<v>Workspace03\Design01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>Workspace03\Design01\cy_vref_v1_70</v>
+<v>Workspace03\Design01\cy_vref_v1_70\cy_vref_v1_70.pdf</v>
+<v>Workspace03\Design01\CyControlReg_v1_80</v>
+<v>Workspace03\Design01\CyControlReg_v1_80\CyControlReg_v1_80.pdf</v>
+<v>Workspace03\Design01\cydff_v1_30</v>
+<v>Workspace03\Design01\cydff_v1_30\cydff_v1_30.pdf</v>
+<v>Workspace03\Design01\CyStatusReg_v1_90.pdf</v>
+<v>Workspace03\Design01\DigitalComp_v1_0</v>
+<v>Workspace03\Design01\DigitalComp_v1_0\DigitalComp_v1_0.pdf</v>
+<v>Workspace03\Design01\Gnd_v1_0.pdf</v>
+<v>Workspace03\Design01\Inductor_v1_0.pdf</v>
+</VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
 </CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
@@ -199,7 +308,11 @@
 <OpenDocs>
 <name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
 <name v=".\Design01.cydsn\main.c" />
+<name v=".\Design01.cydsn\DSP.c" />
 <name v=".\Design01.cydsn\DSP.h" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC5\USBUART_1.h" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC5\USBUART_1_cdc.h" />
+<name v=".\Design01.cydsn\Generated_Source\PSoC5\cytypes.h" />
 <name v=".\Design01.cydsn\Design01.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
@@ -208,7 +321,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1200, 646" SelectedTabbedMdiWindow="70971e52-c5a7-44de-acae-9a28f44dd0cd"><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="70971e52-c5a7-44de-acae-9a28f44dd0cd" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\main.c" Guid="e4c44a8f-7c6c-4624-b486-01a1db5566da" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\DSP.h" Guid="b9e45367-e9ff-4523-a13e-13b36e6a177b" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="8f627d45-bc8c-4c1f-b1cb-4b4bb4e7f396" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cydwr" Guid="31433bc4-ffcc-41ff-b925-fa8c59a6a734" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1347, 646" SelectedTabbedMdiWindow="70971e52-c5a7-44de-acae-9a28f44dd0cd"><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="70971e52-c5a7-44de-acae-9a28f44dd0cd" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\main.c" Guid="e4c44a8f-7c6c-4624-b486-01a1db5566da" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\DSP.c" Guid="7225dd92-53ba-4305-8dd2-dfa306ac1a1d" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\DSP.h" Guid="b9e45367-e9ff-4523-a13e-13b36e6a177b" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Generated_Source\PSoC5\USBUART_1.h" Guid="4f7ab0c4-f46a-4913-991a-f3bd5985e7e7" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Generated_Source\PSoC5\USBUART_1_cdc.h" Guid="f64d744c-460e-4f0a-b308-521006fd20cf" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Generated_Source\PSoC5\cytypes.h" Guid="b9ba405a-c9ce-480d-9966-24f3e188d21e" /><DocumentWindow Key="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cydwr" Guid="26a12d6c-b25e-4f2d-8175-5c7e7e86f41c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Debug" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

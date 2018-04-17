@@ -1,4 +1,4 @@
-Loading plugins phase: Elapsed time ==> 0s.270ms
+Loading plugins phase: Elapsed time ==> 0s.263ms
 <CYPRESSTAG name="CyDsfit arguments...">
 cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cyprj -d CY8C5888LTI-LP097 -s G:\DSA\PORIGE\Workspace03\Design01.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 </CYPRESSTAG>
@@ -9,10 +9,10 @@ ADD: sdb.M0065: information: Analog terminal "Channel1_R.analog_0" on TopDesign 
  * G:\DSA\PORIGE\Workspace03\Design01.cydsn\TopDesign\TopDesign.cysch (Shape_2537)
 
 </CYPRESSTAG>
-Elaboration phase: Elapsed time ==> 6s.234ms
+Elaboration phase: Elapsed time ==> 3s.783ms
 <CYPRESSTAG name="HDL generation results...">
 </CYPRESSTAG>
-HDL generation phase: Elapsed time ==> 0s.171ms
+HDL generation phase: Elapsed time ==> 0s.279ms
 <CYPRESSTAG name="Synthesis results...">
 
      | | | | | | |
@@ -46,7 +46,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=G:\DSA\PORIGE\
 ======================================================================
 
 vlogfe V6.3 IR 41:  Verilog parser
-Tue Apr 17 14:07:47 2018
+Tue Apr 17 14:30:57 2018
 
 
 ======================================================================
@@ -56,7 +56,7 @@ Options  :    -yv2 -q10 Design01.v
 ======================================================================
 
 vpp V6.3 IR 41:  Verilog Pre-Processor
-Tue Apr 17 14:07:47 2018
+Tue Apr 17 14:30:57 2018
 
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
 Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
@@ -100,9 +100,9 @@ Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\c
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
 Using control file 'Design01.ctl'.
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BasicCounter_v1_0\BasicCounter_v1_0.v (line 59, col 28):  Note: Substituting module 'add_vi_vv' for '+'.
-Design01.v (line 1448, col 52):  Note: Substituting module 'cmp_vv_vv' for '='.
-Design01.v (line 1627, col 83):  Note: Substituting module 'cmp_vv_vv' for '='.
-Design01.v (line 1717, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
+Design01.v (line 1450, col 52):  Note: Substituting module 'cmp_vv_vv' for '='.
+Design01.v (line 1629, col 83):  Note: Substituting module 'cmp_vv_vv' for '='.
+Design01.v (line 1719, col 55):  Note: Substituting module 'cmp_vv_vv' for '='.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
 
@@ -116,7 +116,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=G:\DSA\PORIGE\
 ======================================================================
 
 tovif V6.3 IR 41:  High-level synthesis
-Tue Apr 17 14:07:48 2018
+Tue Apr 17 14:30:58 2018
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -164,7 +164,7 @@ Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=G:\DSA\PORIGE\
 ======================================================================
 
 topld V6.3 IR 41:  Synthesis and optimization
-Tue Apr 17 14:07:49 2018
+Tue Apr 17 14:30:59 2018
 
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\std.vhd'.
 Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cypress.vhd'.
@@ -225,8 +225,6 @@ Detecting unused logic.
 	Net_1672
 	Net_1673
 	Net_1674
-	EN
-	\EN_Channel1:control_out_0\
 	Net_2044
 	Net_2045
 	Net_2046
@@ -460,7 +458,7 @@ Detecting unused logic.
 	\Counter_Channel1:add_vi_vv_MODGEN_4_3\
 	\Counter_Channel1:add_vi_vv_MODGEN_4_2\
 
-Deleted 220 User equations/components.
+Deleted 218 User equations/components.
 Deleted 30 Synthesized equations/components.
 
 ------------------------------------------------------
@@ -642,8 +640,8 @@ Removing Lhs of wire Gen_RST_Channel1[671] = cydff_2[670]
 Removing Rhs of wire Net_860[682] = \Control_Reg_1:control_out_0\[687]
 Removing Rhs of wire Net_860[682] = \Control_Reg_1:control_0\[710]
 Removing Rhs of wire Net_896[683] = cmp_vv_vv_MODGEN_1[684]
-Removing Rhs of wire Net_896[683] = \MODULE_2:g1:a0:xeq\[1316]
-Removing Rhs of wire Net_896[683] = \MODULE_2:g1:a0:gx:u0:aeqb_1\[1283]
+Removing Rhs of wire Net_896[683] = \MODULE_2:g1:a0:xeq\[1320]
+Removing Rhs of wire Net_896[683] = \MODULE_2:g1:a0:gx:u0:aeqb_1\[1287]
 Removing Lhs of wire \Control_Reg_1:clk\[685] = zero[13]
 Removing Lhs of wire \Control_Reg_1:rst\[686] = zero[13]
 Removing Rhs of wire Net_914[688] = \Control_Reg_1:control_out_1\[689]
@@ -658,11 +656,13 @@ Removing Lhs of wire Net_871_0[717] = one[10]
 Removing Lhs of wire tmpOE__Channel1_R_net_0[723] = one[10]
 Removing Lhs of wire \EN_Channel1:clk\[729] = zero[13]
 Removing Lhs of wire \EN_Channel1:rst\[730] = zero[13]
+Removing Rhs of wire EN_0[731] = \EN_Channel1:control_out_0\[732]
+Removing Rhs of wire EN_0[731] = \EN_Channel1:control_0\[755]
 Removing Rhs of wire Net_2001[759] = cmp_vv_vv_MODGEN_3[814]
-Removing Rhs of wire Net_2001[759] = \MODULE_4:g1:a0:xeq\[1404]
-Removing Rhs of wire Net_2001[759] = \MODULE_4:g1:a0:gx:u0:aeqb_1\[1393]
+Removing Rhs of wire Net_2001[759] = \MODULE_4:g1:a0:xeq\[1408]
+Removing Rhs of wire Net_2001[759] = \MODULE_4:g1:a0:gx:u0:aeqb_1\[1397]
 Removing Lhs of wire AMuxHw_1_Decoder_enable[760] = one[10]
-Removing Lhs of wire cmp_vv_vv_MODGEN_2[762] = \MODULE_3:g1:a0:xeq\[1360]
+Removing Lhs of wire cmp_vv_vv_MODGEN_2[762] = \MODULE_3:g1:a0:xeq\[1364]
 Removing Lhs of wire \Sel_Gen_Channel1:clk\[778] = zero[13]
 Removing Lhs of wire \Sel_Gen_Channel1:rst\[779] = zero[13]
 Removing Rhs of wire Net_1981_1[792] = \Sel_Gen_Channel1:control_out_1\[793]
@@ -723,126 +723,126 @@ Removing Lhs of wire \PGA_Channel1:Net_40\[1073] = zero[13]
 Removing Lhs of wire \PGA_Channel1:Net_37\[1074] = zero[13]
 Removing Lhs of wire \PGA_Channel1:Net_38\[1075] = zero[13]
 Removing Lhs of wire tmpOE__Vout_R1_net_0[1078] = one[10]
-Removing Lhs of wire tmpOE__Cap1_4_net_0[1098] = one[10]
-Removing Lhs of wire tmpOE__Cap1_3_net_0[1104] = one[10]
-Removing Lhs of wire tmpOE__Cap1_2_net_0[1110] = one[10]
-Removing Lhs of wire tmpOE__Cap1_1_net_0[1116] = one[10]
-Removing Lhs of wire tmpOE__Channel_1_net_0[1122] = one[10]
-Removing Lhs of wire tmpOE__Pin_2_net_0[1132] = one[10]
-Removing Lhs of wire tmpOE__Pin_1_net_0[1138] = one[10]
-Removing Lhs of wire \USBUART_1:tmpOE__Dm_net_0\[1156] = one[10]
-Removing Lhs of wire \USBUART_1:tmpOE__Dp_net_0\[1163] = one[10]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_6\[1211] = MODIN2_6[1212]
-Removing Lhs of wire MODIN2_6[1212] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_5\[1213] = MODIN2_5[1214]
-Removing Lhs of wire MODIN2_5[1214] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_4\[1215] = MODIN2_4[1216]
-Removing Lhs of wire MODIN2_4[1216] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_3\[1217] = MODIN2_3[1218]
-Removing Lhs of wire MODIN2_3[1218] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_2\[1219] = MODIN2_2[1220]
-Removing Lhs of wire MODIN2_2[1220] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_1\[1221] = MODIN2_1[1222]
-Removing Lhs of wire MODIN2_1[1222] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:newa_0\[1223] = MODIN2_0[1224]
-Removing Lhs of wire MODIN2_0[1224] = one[10]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_6\[1225] = MODIN3_6[1226]
-Removing Lhs of wire MODIN3_6[1226] = Net_872_6[673]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_5\[1227] = MODIN3_5[1228]
-Removing Lhs of wire MODIN3_5[1228] = Net_872_5[674]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_4\[1229] = MODIN3_4[1230]
-Removing Lhs of wire MODIN3_4[1230] = Net_872_4[675]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_3\[1231] = MODIN3_3[1232]
-Removing Lhs of wire MODIN3_3[1232] = Net_872_3[676]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_2\[1233] = MODIN3_2[1234]
-Removing Lhs of wire MODIN3_2[1234] = Net_872_2[677]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_1\[1235] = MODIN3_1[1236]
-Removing Lhs of wire MODIN3_1[1236] = Net_872_1[678]
-Removing Lhs of wire \MODULE_2:g1:a0:newb_0\[1237] = MODIN3_0[1238]
-Removing Lhs of wire MODIN3_0[1238] = Net_872_0[679]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_6\[1239] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_5\[1240] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_4\[1241] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_3\[1242] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_2\[1243] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_1\[1244] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:dataa_0\[1245] = one[10]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_6\[1246] = Net_872_6[673]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_5\[1247] = Net_872_5[674]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_4\[1248] = Net_872_4[675]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_3\[1249] = Net_872_3[676]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_2\[1250] = Net_872_2[677]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_1\[1251] = Net_872_1[678]
-Removing Lhs of wire \MODULE_2:g1:a0:datab_0\[1252] = Net_872_0[679]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_6\[1253] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_5\[1254] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_4\[1255] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_3\[1256] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_2\[1257] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_1\[1258] = zero[13]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_0\[1259] = one[10]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_6\[1260] = Net_872_6[673]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_5\[1261] = Net_872_5[674]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_4\[1262] = Net_872_4[675]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_3\[1263] = Net_872_3[676]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_2\[1264] = Net_872_2[677]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_1\[1265] = Net_872_1[678]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_0\[1266] = Net_872_0[679]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:aeqb_0\[1274] = one[10]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eq_0\[1275] = \MODULE_2:g1:a0:gx:u0:xnor_array_0\[1273]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eqi_0\[1282] = \MODULE_2:g1:a0:gx:u0:eq_6\[1281]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_1\[1327] = Net_2100_1[765]
-Removing Lhs of wire MODIN4_1[1328] = Net_2100_1[765]
-Removing Lhs of wire \MODULE_3:g1:a0:newa_0\[1329] = Net_2100_0[767]
-Removing Lhs of wire MODIN4_0[1330] = Net_2100_0[767]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_1\[1331] = MODIN5_1[1332]
-Removing Lhs of wire MODIN5_1[1332] = AMuxHw_1_Decoder_old_id_1[764]
-Removing Lhs of wire \MODULE_3:g1:a0:newb_0\[1333] = MODIN5_0[1334]
-Removing Lhs of wire MODIN5_0[1334] = AMuxHw_1_Decoder_old_id_0[766]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_1\[1335] = Net_2100_1[765]
-Removing Lhs of wire \MODULE_3:g1:a0:dataa_0\[1336] = Net_2100_0[767]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_1\[1337] = AMuxHw_1_Decoder_old_id_1[764]
-Removing Lhs of wire \MODULE_3:g1:a0:datab_0\[1338] = AMuxHw_1_Decoder_old_id_0[766]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_1\[1339] = Net_2100_1[765]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_0\[1340] = Net_2100_0[767]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_1\[1341] = AMuxHw_1_Decoder_old_id_1[764]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_0\[1342] = AMuxHw_1_Decoder_old_id_0[766]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:aeqb_0\[1345] = one[10]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:eq_0\[1346] = \MODULE_3:g1:a0:gx:u0:xnor_array_0\[1344]
-Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:eqi_0\[1348] = \MODULE_3:g1:a0:gx:u0:eq_1\[1347]
-Removing Rhs of wire \MODULE_3:g1:a0:xeq\[1360] = \MODULE_3:g1:a0:gx:u0:aeqb_1\[1349]
-Removing Lhs of wire \MODULE_4:g1:a0:newa_1\[1371] = MODIN6_1[1372]
-Removing Lhs of wire MODIN6_1[1372] = Net_1981_1[792]
-Removing Lhs of wire \MODULE_4:g1:a0:newa_0\[1373] = MODIN6_0[1374]
-Removing Lhs of wire MODIN6_0[1374] = Net_1981_0[794]
-Removing Lhs of wire \MODULE_4:g1:a0:newb_1\[1375] = Net_2100_1[765]
-Removing Lhs of wire MODIN7_1[1376] = Net_2100_1[765]
-Removing Lhs of wire \MODULE_4:g1:a0:newb_0\[1377] = Net_2100_0[767]
-Removing Lhs of wire MODIN7_0[1378] = Net_2100_0[767]
-Removing Lhs of wire \MODULE_4:g1:a0:dataa_1\[1379] = Net_1981_1[792]
-Removing Lhs of wire \MODULE_4:g1:a0:dataa_0\[1380] = Net_1981_0[794]
-Removing Lhs of wire \MODULE_4:g1:a0:datab_1\[1381] = Net_2100_1[765]
-Removing Lhs of wire \MODULE_4:g1:a0:datab_0\[1382] = Net_2100_0[767]
-Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:a_1\[1383] = Net_1981_1[792]
-Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:a_0\[1384] = Net_1981_0[794]
-Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:b_1\[1385] = Net_2100_1[765]
-Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:b_0\[1386] = Net_2100_0[767]
-Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:aeqb_0\[1389] = one[10]
-Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:eq_0\[1390] = \MODULE_4:g1:a0:gx:u0:xnor_array_0\[1388]
-Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:eqi_0\[1392] = \MODULE_4:g1:a0:gx:u0:eq_1\[1391]
-Removing Lhs of wire \ShiftReg_5:bSR:load_reg\\D\[1415] = Net_703[35]
-Removing Lhs of wire \ShiftReg_6:bSR:load_reg\\D\[1416] = Net_703[35]
-Removing Lhs of wire \ShiftReg_7:bSR:load_reg\\D\[1417] = Net_917[362]
-Removing Lhs of wire \ShiftReg_8:bSR:load_reg\\D\[1418] = Net_917[362]
-Removing Lhs of wire cydff_1D[1421] = Net_697[331]
-Removing Lhs of wire cydff_2D[1422] = Net_686[659]
-Removing Lhs of wire cydff_3D[1423] = Net_860[682]
-Removing Lhs of wire cydff_4D[1424] = Net_914[688]
-Removing Lhs of wire AMuxHw_1_Decoder_old_id_1D[1425] = Net_2100_1[765]
-Removing Lhs of wire AMuxHw_1_Decoder_old_id_0D[1427] = Net_2100_0[767]
+Removing Lhs of wire tmpOE__Cap1_4_net_0[1099] = one[10]
+Removing Lhs of wire tmpOE__Cap1_3_net_0[1105] = one[10]
+Removing Lhs of wire tmpOE__Cap1_2_net_0[1111] = one[10]
+Removing Lhs of wire tmpOE__Cap1_1_net_0[1117] = one[10]
+Removing Lhs of wire tmpOE__Channel_1_net_0[1123] = one[10]
+Removing Lhs of wire tmpOE__Pin_2_net_0[1136] = one[10]
+Removing Lhs of wire tmpOE__Pin_1_net_0[1142] = one[10]
+Removing Lhs of wire \USBUART_1:tmpOE__Dm_net_0\[1160] = one[10]
+Removing Lhs of wire \USBUART_1:tmpOE__Dp_net_0\[1167] = one[10]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_6\[1215] = MODIN2_6[1216]
+Removing Lhs of wire MODIN2_6[1216] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_5\[1217] = MODIN2_5[1218]
+Removing Lhs of wire MODIN2_5[1218] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_4\[1219] = MODIN2_4[1220]
+Removing Lhs of wire MODIN2_4[1220] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_3\[1221] = MODIN2_3[1222]
+Removing Lhs of wire MODIN2_3[1222] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_2\[1223] = MODIN2_2[1224]
+Removing Lhs of wire MODIN2_2[1224] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_1\[1225] = MODIN2_1[1226]
+Removing Lhs of wire MODIN2_1[1226] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:newa_0\[1227] = MODIN2_0[1228]
+Removing Lhs of wire MODIN2_0[1228] = one[10]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_6\[1229] = MODIN3_6[1230]
+Removing Lhs of wire MODIN3_6[1230] = Net_872_6[673]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_5\[1231] = MODIN3_5[1232]
+Removing Lhs of wire MODIN3_5[1232] = Net_872_5[674]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_4\[1233] = MODIN3_4[1234]
+Removing Lhs of wire MODIN3_4[1234] = Net_872_4[675]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_3\[1235] = MODIN3_3[1236]
+Removing Lhs of wire MODIN3_3[1236] = Net_872_3[676]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_2\[1237] = MODIN3_2[1238]
+Removing Lhs of wire MODIN3_2[1238] = Net_872_2[677]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_1\[1239] = MODIN3_1[1240]
+Removing Lhs of wire MODIN3_1[1240] = Net_872_1[678]
+Removing Lhs of wire \MODULE_2:g1:a0:newb_0\[1241] = MODIN3_0[1242]
+Removing Lhs of wire MODIN3_0[1242] = Net_872_0[679]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_6\[1243] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_5\[1244] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_4\[1245] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_3\[1246] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_2\[1247] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_1\[1248] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:dataa_0\[1249] = one[10]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_6\[1250] = Net_872_6[673]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_5\[1251] = Net_872_5[674]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_4\[1252] = Net_872_4[675]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_3\[1253] = Net_872_3[676]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_2\[1254] = Net_872_2[677]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_1\[1255] = Net_872_1[678]
+Removing Lhs of wire \MODULE_2:g1:a0:datab_0\[1256] = Net_872_0[679]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_6\[1257] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_5\[1258] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_4\[1259] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_3\[1260] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_2\[1261] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_1\[1262] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:a_0\[1263] = one[10]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_6\[1264] = Net_872_6[673]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_5\[1265] = Net_872_5[674]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_4\[1266] = Net_872_4[675]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_3\[1267] = Net_872_3[676]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_2\[1268] = Net_872_2[677]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_1\[1269] = Net_872_1[678]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:b_0\[1270] = Net_872_0[679]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:aeqb_0\[1278] = one[10]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eq_0\[1279] = \MODULE_2:g1:a0:gx:u0:xnor_array_0\[1277]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:eqi_0\[1286] = \MODULE_2:g1:a0:gx:u0:eq_6\[1285]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_1\[1331] = Net_2100_1[765]
+Removing Lhs of wire MODIN4_1[1332] = Net_2100_1[765]
+Removing Lhs of wire \MODULE_3:g1:a0:newa_0\[1333] = Net_2100_0[767]
+Removing Lhs of wire MODIN4_0[1334] = Net_2100_0[767]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_1\[1335] = MODIN5_1[1336]
+Removing Lhs of wire MODIN5_1[1336] = AMuxHw_1_Decoder_old_id_1[764]
+Removing Lhs of wire \MODULE_3:g1:a0:newb_0\[1337] = MODIN5_0[1338]
+Removing Lhs of wire MODIN5_0[1338] = AMuxHw_1_Decoder_old_id_0[766]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_1\[1339] = Net_2100_1[765]
+Removing Lhs of wire \MODULE_3:g1:a0:dataa_0\[1340] = Net_2100_0[767]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_1\[1341] = AMuxHw_1_Decoder_old_id_1[764]
+Removing Lhs of wire \MODULE_3:g1:a0:datab_0\[1342] = AMuxHw_1_Decoder_old_id_0[766]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_1\[1343] = Net_2100_1[765]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:a_0\[1344] = Net_2100_0[767]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_1\[1345] = AMuxHw_1_Decoder_old_id_1[764]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:b_0\[1346] = AMuxHw_1_Decoder_old_id_0[766]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:aeqb_0\[1349] = one[10]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:eq_0\[1350] = \MODULE_3:g1:a0:gx:u0:xnor_array_0\[1348]
+Removing Lhs of wire \MODULE_3:g1:a0:gx:u0:eqi_0\[1352] = \MODULE_3:g1:a0:gx:u0:eq_1\[1351]
+Removing Rhs of wire \MODULE_3:g1:a0:xeq\[1364] = \MODULE_3:g1:a0:gx:u0:aeqb_1\[1353]
+Removing Lhs of wire \MODULE_4:g1:a0:newa_1\[1375] = MODIN6_1[1376]
+Removing Lhs of wire MODIN6_1[1376] = Net_1981_1[792]
+Removing Lhs of wire \MODULE_4:g1:a0:newa_0\[1377] = MODIN6_0[1378]
+Removing Lhs of wire MODIN6_0[1378] = Net_1981_0[794]
+Removing Lhs of wire \MODULE_4:g1:a0:newb_1\[1379] = Net_2100_1[765]
+Removing Lhs of wire MODIN7_1[1380] = Net_2100_1[765]
+Removing Lhs of wire \MODULE_4:g1:a0:newb_0\[1381] = Net_2100_0[767]
+Removing Lhs of wire MODIN7_0[1382] = Net_2100_0[767]
+Removing Lhs of wire \MODULE_4:g1:a0:dataa_1\[1383] = Net_1981_1[792]
+Removing Lhs of wire \MODULE_4:g1:a0:dataa_0\[1384] = Net_1981_0[794]
+Removing Lhs of wire \MODULE_4:g1:a0:datab_1\[1385] = Net_2100_1[765]
+Removing Lhs of wire \MODULE_4:g1:a0:datab_0\[1386] = Net_2100_0[767]
+Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:a_1\[1387] = Net_1981_1[792]
+Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:a_0\[1388] = Net_1981_0[794]
+Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:b_1\[1389] = Net_2100_1[765]
+Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:b_0\[1390] = Net_2100_0[767]
+Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:aeqb_0\[1393] = one[10]
+Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:eq_0\[1394] = \MODULE_4:g1:a0:gx:u0:xnor_array_0\[1392]
+Removing Lhs of wire \MODULE_4:g1:a0:gx:u0:eqi_0\[1396] = \MODULE_4:g1:a0:gx:u0:eq_1\[1395]
+Removing Lhs of wire \ShiftReg_5:bSR:load_reg\\D\[1419] = Net_703[35]
+Removing Lhs of wire \ShiftReg_6:bSR:load_reg\\D\[1420] = Net_703[35]
+Removing Lhs of wire \ShiftReg_7:bSR:load_reg\\D\[1421] = Net_917[362]
+Removing Lhs of wire \ShiftReg_8:bSR:load_reg\\D\[1422] = Net_917[362]
+Removing Lhs of wire cydff_1D[1425] = Net_697[331]
+Removing Lhs of wire cydff_2D[1426] = Net_686[659]
+Removing Lhs of wire cydff_3D[1427] = Net_860[682]
+Removing Lhs of wire cydff_4D[1428] = Net_914[688]
+Removing Lhs of wire AMuxHw_1_Decoder_old_id_1D[1429] = Net_2100_1[765]
+Removing Lhs of wire AMuxHw_1_Decoder_old_id_0D[1431] = Net_2100_0[767]
 
 ------------------------------------------------------
-Aliased 0 equations, 274 wires.
+Aliased 0 equations, 276 wires.
 ------------------------------------------------------
 
 ----------------------------------------------------------
@@ -1084,7 +1084,7 @@ Removing Lhs of wire \Counter_Channel1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_24\[986] 
 Removing Lhs of wire \Counter_Channel1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_16\[996] = zero[13]
 Removing Lhs of wire \Counter_Channel1:MODULE_1:g2:a0:g1:z1:s0:g1:u0:b_8\[1006] = zero[13]
 Removing Lhs of wire \ADC_Channel1:Net_188\[1035] = \ADC_Channel1:Net_385\[1033]
-Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:gt_5\[1297] = zero[13]
+Removing Lhs of wire \MODULE_2:g1:a0:gx:u0:gt_5\[1301] = zero[13]
 
 ------------------------------------------------------
 Aliased 0 equations, 5 wires.
@@ -1117,14 +1117,14 @@ CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\wa
 Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\bin\warp.exe
 Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cyprj -dcpsoc3 Design01.v -verilog
 </CYPRESSTAG>
-Warp synthesis phase: Elapsed time ==> 2s.930ms
+Warp synthesis phase: Elapsed time ==> 3s.552ms
 <CYPRESSTAG name="Fitter results...">
 <CYPRESSTAG name="Fitter startup details...">
-cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Tuesday, 17 April 2018 14:07:49
+cyp3fit: V4.2.0.641, Family: PSoC3, Started at: Tuesday, 17 April 2018 14:31:00
 Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cyprj -d CY8C5888LTI-LP097 Design01.v -verilog
 </CYPRESSTAG>
 <CYPRESSTAG name="Design parsing">
-Design parsing phase: Elapsed time ==> 0s.044ms
+Design parsing phase: Elapsed time ==> 0s.045ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Tech Mapping">
 <CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
@@ -1142,7 +1142,6 @@ Assigning clock timer_clock_1 to clock BUS_CLK because it is a pass-through
 </CYPRESSTAG>
 
 Removing unused cells resulting from optimization
-    Removed unused cell/equation '\EN_Channel1:Sync:ctrl_reg\:controlcell'
 Done removing unused cells.
 <CYPRESSTAG name="UDB Clock/Enable Remapping Results">
     UDB Clk/Enable \ShiftReg_5:bSR:ClkEn\: with output requested to be synchronous
@@ -1234,6 +1233,10 @@ Removing duplicate macrocells
 
 End removing duplicate macrocells: used 2 passes
 </CYPRESSTAG>
+Error: mpr.M0098: Signal "Net_2159" is expected to connect to only one GPIO analog pin but instead it connects to "\Opamp_Channel1:ABuf\". Please fix the connection.
+     (App=cydsfit)
+Error: mpr.M0098: Signal "Net_2158" is expected to connect to only one GPIO analog pin but instead it connects to "AMuxHw_1". Please fix the connection.
+     (App=cydsfit)
 </CYPRESSTAG>
 <CYPRESSTAG name="Duplicate Macrocell detection">
 </CYPRESSTAG>
@@ -1751,6 +1754,16 @@ Design Equations
             + !cydff_1 * Net_2100_1 * Net_2100_0 * Net_1981_1 * Net_1981_0
         );
         Output = Net_1973 (fanout=1)
+
+    MacroCell: Name=EN_1, Mode=(Combinatorial)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !EN_0
+        );
+        Output = EN_1 (fanout=1)
 
     MacroCell: Name=\ShiftReg_5:bSR:load_reg\, Mode=(D-Register)
         Total # of inputs        : 1
@@ -2614,6 +2627,26 @@ Design Equations
         }
         Clock Enable: True
 
+    controlcell: Name =\EN_Channel1:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \EN_Channel1:control_7\ ,
+            control_6 => \EN_Channel1:control_6\ ,
+            control_5 => \EN_Channel1:control_5\ ,
+            control_4 => \EN_Channel1:control_4\ ,
+            control_3 => \EN_Channel1:control_3\ ,
+            control_2 => \EN_Channel1:control_2\ ,
+            control_1 => \EN_Channel1:control_1\ ,
+            control_0 => EN_0 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+
     controlcell: Name =\Sel_Gen_Channel1:Sync:ctrl_reg\
         PORT MAP (
             control_7 => \Sel_Gen_Channel1:control_7\ ,
@@ -2819,15 +2852,15 @@ USB                           :    1 :    0 :    1 : 100.00 %
 DMA Channels                  :    3 :   21 :   24 : 12.50 %
 Timer                         :    0 :    4 :    4 :  0.00 %
 UDB                           :      :      :      :        
-  Macrocells                  :   21 :  171 :  192 : 10.94 %
-  Unique P-terms              :   28 :  356 :  384 :  7.29 %
-  Total P-terms               :   29 :      :      :        
+  Macrocells                  :   22 :  170 :  192 : 11.46 %
+  Unique P-terms              :   29 :  355 :  384 :  7.55 %
+  Total P-terms               :   30 :      :      :        
   Datapath Cells              :   12 :   12 :   24 : 50.00 %
   Status Cells                :    5 :   19 :   24 : 20.83 %
     Status Registers          :    1 :      :      :        
     StatusI Registers         :    4 :      :      :        
-  Control Cells               :    7 :   17 :   24 : 29.17 %
-    Control Registers         :    6 :      :      :        
+  Control Cells               :    8 :   16 :   24 : 33.33 %
+    Control Registers         :    7 :      :      :        
     Count7 Cells              :    1 :      :      :        
 Opamp                         :    2 :    2 :    4 : 50.00 %
 Comparator                    :    0 :    4 :    4 :  0.00 %
@@ -2838,2372 +2871,15 @@ Analog (SC/CT) Blocks         :    1 :    3 :    4 : 25.00 %
 DAC                           :      :      :      :        
   VIDAC                       :    0 :    4 :    4 :  0.00 %
 </CYPRESSTAG>
-Technology Mapping: Elapsed time ==> 0s.336ms
-ADD: mpr.M0037: information: Unused pieces of the design have been optimized out. See the Tech mapping section of the report file for details.
- * G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Design01.rpt (Tech mapping)
-
-Tech Mapping phase: Elapsed time ==> 0s.485ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Analog Placement">
-Initial Analog Placement Results:
-IO_3@[IOP=(2)][IoId=(3)] : Cap1_1(0) (fixed)
-IO_4@[IOP=(2)][IoId=(4)] : Cap1_2(0) (fixed)
-IO_5@[IOP=(2)][IoId=(5)] : Cap1_3(0) (fixed)
-IO_6@[IOP=(2)][IoId=(6)] : Cap1_4(0) (fixed)
-IO_7@[IOP=(1)][IoId=(7)] : Channel1_R(0) (fixed)
-IO_1@[IOP=(0)][IoId=(1)] : Channel_1(0) (fixed)
-IO_7@[IOP=(0)][IoId=(7)] : Pin_1(0) (fixed)
-IO_0@[IOP=(0)][IoId=(0)] : Pin_2(0) (fixed)
-IO_7@[IOP=(3)][IoId=(7)] : Vout_R1(0) (fixed)
-IO_7@[IOP=(15)][IoId=(7)] : \USBUART_1:Dm(0)\ (fixed)
-IO_6@[IOP=(15)][IoId=(6)] : \USBUART_1:Dp(0)\ (fixed)
-OpAmp[3]@[FFB(OpAmp,3)] : \Opamp_Channel1_1:ABuf\ (fixed)
-IO_6@[IOP=(3)][IoId=(6)] : Dedicated_Output (fixed, OPAMP-GPIO)
-SAR[0]@[FFB(SAR,0)] : \ADC_Channel1:ADC_SAR\
-Vref[13]@[FFB(Vref,13)] : \ADC_Channel1:vRef_Vdda_1\
-OpAmp[1]@[FFB(OpAmp,1)] : \Opamp_Channel1:ABuf\ (OPAMP-GPIO)
-SC[2]@[FFB(SC,2)] : \PGA_Channel1:SC\
-USB[0]@[FFB(USB,0)] : \USBUART_1:USB\
-Vref[1]@[FFB(Vref,1)] : vRef_1
-Log: apr.M0058: The analog placement iterative improvement is 38% done. (App=cydsfit)
-Log: apr.M0058: The analog placement iterative improvement is 70% done. (App=cydsfit)
-Analog Placement Results:
-IO_3@[IOP=(2)][IoId=(3)] : Cap1_1(0) (fixed)
-IO_4@[IOP=(2)][IoId=(4)] : Cap1_2(0) (fixed)
-IO_5@[IOP=(2)][IoId=(5)] : Cap1_3(0) (fixed)
-IO_6@[IOP=(2)][IoId=(6)] : Cap1_4(0) (fixed)
-IO_7@[IOP=(1)][IoId=(7)] : Channel1_R(0) (fixed)
-IO_1@[IOP=(0)][IoId=(1)] : Channel_1(0) (fixed)
-IO_7@[IOP=(0)][IoId=(7)] : Pin_1(0) (fixed)
-IO_0@[IOP=(0)][IoId=(0)] : Pin_2(0) (fixed)
-IO_7@[IOP=(3)][IoId=(7)] : Vout_R1(0) (fixed)
-IO_7@[IOP=(15)][IoId=(7)] : \USBUART_1:Dm(0)\ (fixed)
-IO_6@[IOP=(15)][IoId=(6)] : \USBUART_1:Dp(0)\ (fixed)
-OpAmp[3]@[FFB(OpAmp,3)] : \Opamp_Channel1_1:ABuf\ (fixed)
-IO_6@[IOP=(3)][IoId=(6)] : Dedicated_Output (fixed, OPAMP-GPIO)
-SAR[0]@[FFB(SAR,0)] : \ADC_Channel1:ADC_SAR\
-Vref[13]@[FFB(Vref,13)] : \ADC_Channel1:vRef_Vdda_1\
-OpAmp[1]@[FFB(OpAmp,1)] : \Opamp_Channel1:ABuf\ (OPAMP-GPIO)
-SC[2]@[FFB(SC,2)] : \PGA_Channel1:SC\
-USB[0]@[FFB(USB,0)] : \USBUART_1:USB\
-Vref[1]@[FFB(Vref,1)] : vRef_1
-
-Analog Placement phase: Elapsed time ==> 2s.423ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Analog Routing">
-Analog Routing phase: Elapsed time ==> 0s.047ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Analog Code Generation">
-============ Analog Final Answer Routes ============
-Dump of CyAnalogRoutingResultsDB
-Map of net to items {
-  Net: Net_2132 {
-    opamp_1_vplus
-    agr5_x_opamp_1_vplus
-    agr5
-    agl5_x_agr5
-    agl5
-    agl5_x_p0_1
-    p0_1
-  }
-  Net: Net_1963 {
-    p2_3
-  }
-  Net: Net_1964 {
-    p2_4
-  }
-  Net: Net_1965 {
-    p2_5
-  }
-  Net: Net_1966 {
-    p2_6
-  }
-  Net: Net_1688 {
-    sc_2_vout
-    agl4_x_sc_2_vout
-    agl4
-    agl4_x_vidac_2_iout
-    vidac_2_iout
-    p0_7_x_vidac_2_iout
-    p0_7
-    agl4_x_sar_0_vplus
-    sar_0_vplus
-  }
-  Net: Net_1819 {
-    p3_7
-    opamp_3_vminus_x_p3_7
-    opamp_3_vminus
-  }
-  Net: \ADC_Channel1:Net_126\ {
-    sar_0_vrefhi
-    sar_0_vminus_x_sar_0_vrefhi
-    sar_0_vminus
-  }
-  Net: \ADC_Channel1:Net_209\ {
-  }
-  Net: \ADC_Channel1:Net_235\ {
-    common_sar_vref_vdda/2
-    common_sar_vref_vdda/2_x_sar_0_vref_vdda_vdda_2
-    sar_0_vref_vdda_vdda_2
-    sar_0_vref_x_sar_0_vref_vdda_vdda_2
-    sar_0_vref
-  }
-  Net: Net_1696 {
-    sc_2_vin
-    agl6_x_sc_2_vin
-    agl6
-    agl6_x_agr6
-    agr6
-    agr6_x_opamp_1_vminus
-    opamp_1_vminus
-    agr6_x_p3_6
-    p3_6
-  }
-  Net: Net_1685 {
-    common_Vdda/2
-    common_Vdda/2_x_comp_vref_vdda
-    comp_vref_vdda
-    comp_vref_vdda_x_comp_vref_vdda_0256
-    comp_vref_vdda_0256
-    comp_2_vminus_x_comp_vref_vdda_0256
-    comp_2_vminus
-    agl7_x_comp_2_vminus
-    agl7
-    agl7_x_sc_2_vref
-    sc_2_vref
-    agl7_x_agr7
-    agr7
-    agr7_x_opamp_3_vplus
-    opamp_3_vplus
-  }
-  Net: AmuxNet::AMuxHw_1 {
-    p0_1
-    amuxbusl_x_p0_1
-    amuxbusl
-    amuxbusl_x_p2_6
-    amuxbusl_x_p2_3
-    amuxbusl_x_p2_4
-    amuxbusl_x_p2_5
-    p2_6
-    p2_3
-    p2_4
-    p2_5
-  }
-}
-Map of item to net {
-  opamp_1_vplus                                    -> Net_2132
-  agr5_x_opamp_1_vplus                             -> Net_2132
-  agr5                                             -> Net_2132
-  agl5_x_agr5                                      -> Net_2132
-  agl5                                             -> Net_2132
-  agl5_x_p0_1                                      -> Net_2132
-  p0_1                                             -> Net_2132
-  sc_2_vout                                        -> Net_1688
-  agl4_x_sc_2_vout                                 -> Net_1688
-  agl4                                             -> Net_1688
-  agl4_x_vidac_2_iout                              -> Net_1688
-  vidac_2_iout                                     -> Net_1688
-  p0_7_x_vidac_2_iout                              -> Net_1688
-  p0_7                                             -> Net_1688
-  agl4_x_sar_0_vplus                               -> Net_1688
-  sar_0_vplus                                      -> Net_1688
-  p3_7                                             -> Net_1819
-  opamp_3_vminus_x_p3_7                            -> Net_1819
-  opamp_3_vminus                                   -> Net_1819
-  sar_0_vrefhi                                     -> \ADC_Channel1:Net_126\
-  sar_0_vminus_x_sar_0_vrefhi                      -> \ADC_Channel1:Net_126\
-  sar_0_vminus                                     -> \ADC_Channel1:Net_126\
-  common_sar_vref_vdda/2                           -> \ADC_Channel1:Net_235\
-  common_sar_vref_vdda/2_x_sar_0_vref_vdda_vdda_2  -> \ADC_Channel1:Net_235\
-  sar_0_vref_vdda_vdda_2                           -> \ADC_Channel1:Net_235\
-  sar_0_vref_x_sar_0_vref_vdda_vdda_2              -> \ADC_Channel1:Net_235\
-  sar_0_vref                                       -> \ADC_Channel1:Net_235\
-  sc_2_vin                                         -> Net_1696
-  agl6_x_sc_2_vin                                  -> Net_1696
-  agl6                                             -> Net_1696
-  agl6_x_agr6                                      -> Net_1696
-  agr6                                             -> Net_1696
-  agr6_x_opamp_1_vminus                            -> Net_1696
-  opamp_1_vminus                                   -> Net_1696
-  agr6_x_p3_6                                      -> Net_1696
-  p3_6                                             -> Net_1696
-  common_Vdda/2                                    -> Net_1685
-  common_Vdda/2_x_comp_vref_vdda                   -> Net_1685
-  comp_vref_vdda                                   -> Net_1685
-  comp_vref_vdda_x_comp_vref_vdda_0256             -> Net_1685
-  comp_vref_vdda_0256                              -> Net_1685
-  comp_2_vminus_x_comp_vref_vdda_0256              -> Net_1685
-  comp_2_vminus                                    -> Net_1685
-  agl7_x_comp_2_vminus                             -> Net_1685
-  agl7                                             -> Net_1685
-  agl7_x_sc_2_vref                                 -> Net_1685
-  sc_2_vref                                        -> Net_1685
-  agl7_x_agr7                                      -> Net_1685
-  agr7                                             -> Net_1685
-  agr7_x_opamp_3_vplus                             -> Net_1685
-  opamp_3_vplus                                    -> Net_1685
-  p2_3                                             -> Net_1963
-  p2_4                                             -> Net_1964
-  p2_5                                             -> Net_1965
-  p2_6                                             -> Net_1966
-  amuxbusl_x_p0_1                                  -> AmuxNet::AMuxHw_1
-  amuxbusl                                         -> AmuxNet::AMuxHw_1
-  amuxbusl_x_p2_6                                  -> AmuxNet::AMuxHw_1
-  amuxbusl_x_p2_3                                  -> AmuxNet::AMuxHw_1
-  amuxbusl_x_p2_4                                  -> AmuxNet::AMuxHw_1
-  amuxbusl_x_p2_5                                  -> AmuxNet::AMuxHw_1
-}
-Mux Info {
-  Mux: AMuxHw_1 {
-     Mouth: Net_2132
-     Guts:  AmuxNet::AMuxHw_1
-     IsSingleSwitching: False
-     IsStaticSwitching: True
-     IsAtMostOneSwitch: True
-    Arm: 0 {
-      Net:   Net_1963
-      Outer: amuxbusl_x_p2_3
-      Inner: __open__
-      Path {
-        p2_3
-        amuxbusl_x_p2_3
-        amuxbusl
-        amuxbusl_x_p0_1
-        p0_1
-      }
-    }
-    Arm: 1 {
-      Net:   Net_1964
-      Outer: amuxbusl_x_p2_4
-      Inner: __open__
-      Path {
-        p2_4
-        amuxbusl_x_p2_4
-        amuxbusl
-        amuxbusl_x_p0_1
-        p0_1
-      }
-    }
-    Arm: 2 {
-      Net:   Net_1965
-      Outer: amuxbusl_x_p2_5
-      Inner: __open__
-      Path {
-        p2_5
-        amuxbusl_x_p2_5
-        amuxbusl
-        amuxbusl_x_p0_1
-        p0_1
-      }
-    }
-    Arm: 3 {
-      Net:   Net_1966
-      Outer: amuxbusl_x_p2_6
-      Inner: __open__
-      Path {
-        p2_6
-        amuxbusl_x_p2_6
-        amuxbusl
-        amuxbusl_x_p0_1
-        p0_1
-      }
-    }
-  }
-}
-Dump of CyP35AnalogRoutingResultsDB
-IsVddaHalfUsedForComp = True
-IsVddaHalfUsedForSar0 = True
-IsVddaHalfUsedForSar1 = False
-Analog Code Generation phase: Elapsed time ==> 0s.503ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Digital Placement">
-<CYPRESSTAG name="Detailed placement messages">
-I2076: Total run-time: 1.5 sec.
-
-</CYPRESSTAG>
-<CYPRESSTAG name="PLD Packing">
-<CYPRESSTAG name="PLD Packing Summary" expanded>
-
-------------------------------------------------------------
-PLD Packing Summary
-------------------------------------------------------------
-            Resource Type : Used : Free :  Max :  % Used
-    ====================================================
-                     PLDs :   13 :   35 :   48 :  27.08%
-
-<CYPRESSTAG name="PLD Statistics">
-
-        PLD Resource Type :     Average/LAB
-    =======================================
-                   Inputs :            3.69
-                   Pterms :            2.15
-               Macrocells :            1.62
-</CYPRESSTAG>
-<CYPRESSTAG name="Packed PLD Contents">
-Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
-</CYPRESSTAG>
-PLD Packing: Elapsed time ==> 0s.002ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Partitioning">
-<CYPRESSTAG name="Initial Partitioning Summary">
-Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-<CYPRESSTAG name="Final Partitioning Summary">
-Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
-Partitioning: Elapsed time ==> 0s.165ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Final Placement Summary">
-
-------------------------------------------------------------
-Final Placement Summary
-------------------------------------------------------------
-
-       Resource Type :      Count : Avg Inputs : Avg Outputs
-    ========================================================
-                 UDB :         15 :       2.80 :       1.40
-<CYPRESSTAG name="Final Placement Details">
-<CYPRESSTAG name="Component Details">
-
-------------------------------------------------------------
-Component Placement Details
-------------------------------------------------------------
-UDB [UDB=(0,0)] contents:
-LAB@[UDB=(0,0)][LB=0] #macrocells=1, #inputs=4, #pterms=1
-{
-    [McSlotId=0]:     MacroCell: Name=AMuxHw_1_Decoder_one_hot_3, Mode=(D-Register) @ [UDB=(0,0)][LB=0][MC=0]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_2059) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              AMuxHw_1_Decoder_old_id_1 * Net_2100_1 * 
-              AMuxHw_1_Decoder_old_id_0 * Net_2100_0
-        );
-        Output = AMuxHw_1_Decoder_one_hot_3 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(0,0)][LB=1] #macrocells=1, #inputs=4, #pterms=1
-{
-    [McSlotId=0]: (empty)
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=AMuxHw_1_Decoder_one_hot_1, Mode=(D-Register) @ [UDB=(0,0)][LB=1][MC=2]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_2059) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !AMuxHw_1_Decoder_old_id_1 * !Net_2100_1 * 
-              AMuxHw_1_Decoder_old_id_0 * Net_2100_0
-        );
-        Output = AMuxHw_1_Decoder_one_hot_1 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-datapathcell: Name =\ShiftReg_7:bSR:sC24:BShiftRegDp:u2\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_7:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_7:bSR:status_0\ ,
-        route_si => Net_697 ,
-        f0_bus_stat_comb => \ShiftReg_7:bSR:status_4\ ,
-        f0_blk_stat_comb => \ShiftReg_7:bSR:status_3\ ,
-        f1_bus_stat_comb => \ShiftReg_7:bSR:status_6\ ,
-        f1_blk_stat_comb => \ShiftReg_7:bSR:status_5\ ,
-        chain_in => \ShiftReg_7:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110101001001000111100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_7:bSR:sC24:BShiftRegDp:u1\
-
-statusicell: Name =\ShiftReg_7:bSR:StsReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        status_6 => \ShiftReg_7:bSR:status_6\ ,
-        status_5 => \ShiftReg_7:bSR:status_5\ ,
-        status_4 => \ShiftReg_7:bSR:status_4\ ,
-        status_3 => \ShiftReg_7:bSR:status_3\ ,
-        status_0 => \ShiftReg_7:bSR:status_0\ );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_int_mask = "0000111"
-        cy_md_select = "0000111"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-controlcell: Name =\ShiftReg_7:bSR:SyncCtl:CtrlReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        control_7 => \ShiftReg_7:bSR:control_7\ ,
-        control_6 => \ShiftReg_7:bSR:control_6\ ,
-        control_5 => \ShiftReg_7:bSR:control_5\ ,
-        control_4 => \ShiftReg_7:bSR:control_4\ ,
-        control_3 => \ShiftReg_7:bSR:control_3\ ,
-        control_2 => \ShiftReg_7:bSR:control_2\ ,
-        control_1 => \ShiftReg_7:bSR:control_1\ ,
-        control_0 => \ShiftReg_7:bSR:ctrl_clk_enable\ );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000001"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(0,1)] contents:
-LAB@[UDB=(0,1)][LB=0] #macrocells=1, #inputs=5, #pterms=4
-{
-    [McSlotId=0]: (empty)
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=Net_1973, Mode=(Combinatorial) @ [UDB=(0,1)][LB=0][MC=2]
-        Total # of inputs        : 5
-        Total # of product terms : 4
-            Clock Enable: True
-        Main Equation            : 4 pterms
-        (
-              !cydff_1 * !Net_2100_1 * !Net_2100_0 * !Net_1981_1 * 
-              !Net_1981_0
-            + !cydff_1 * !Net_2100_1 * Net_2100_0 * !Net_1981_1 * Net_1981_0
-            + !cydff_1 * Net_2100_1 * !Net_2100_0 * Net_1981_1 * !Net_1981_0
-            + !cydff_1 * Net_2100_1 * Net_2100_0 * Net_1981_1 * Net_1981_0
-        );
-        Output = Net_1973 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(0,1)][LB=1] #macrocells=2, #inputs=2, #pterms=2
-{
-    [McSlotId=0]: (empty)
-    [McSlotId=1]:     MacroCell: Name=AMuxHw_1_Decoder_old_id_0, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_2059) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2100_0
-        );
-        Output = AMuxHw_1_Decoder_old_id_0 (fanout=4)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]:     MacroCell: Name=AMuxHw_1_Decoder_old_id_1, Mode=(D-Register) @ [UDB=(0,1)][LB=1][MC=3]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_2059) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_2100_1
-        );
-        Output = AMuxHw_1_Decoder_old_id_1 (fanout=4)
-        Properties               : 
-        {
-        }
-}
-
-datapathcell: Name =\ShiftReg_7:bSR:sC24:BShiftRegDp:u1\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_7:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_7:bSR:status_0\ ,
-        route_si => Net_697 ,
-        chain_in => \ShiftReg_7:bSR:sC24:BShiftRegDp:carry0\ ,
-        chain_out => \ShiftReg_7:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_7:bSR:sC24:BShiftRegDp:u0\
-    Next in chain : \ShiftReg_7:bSR:sC24:BShiftRegDp:u2\
-
-controlcell: Name =\Sel_Gen_Channel1:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \Sel_Gen_Channel1:control_7\ ,
-        control_6 => \Sel_Gen_Channel1:control_6\ ,
-        control_5 => \Sel_Gen_Channel1:control_5\ ,
-        control_4 => \Sel_Gen_Channel1:control_4\ ,
-        control_3 => \Sel_Gen_Channel1:control_3\ ,
-        control_2 => \Sel_Gen_Channel1:control_2\ ,
-        control_1 => Net_1981_1 ,
-        control_0 => Net_1981_0 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000010"
-    }
-    Clock Enable: True
-
-UDB [UDB=(0,2)] contents:
-LAB@[UDB=(0,2)][LB=0] #macrocells=2, #inputs=2, #pterms=2
-{
-    [McSlotId=0]:     MacroCell: Name=\ShiftReg_7:bSR:status_0\, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=0]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\ShiftReg_7:bSR:load_reg\ * Net_917
-        );
-        Output = \ShiftReg_7:bSR:status_0\ (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=\ShiftReg_7:bSR:load_reg\, Mode=(D-Register) @ [UDB=(0,2)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (ClockBlock_BUS_CLK) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_917
-        );
-        Output = \ShiftReg_7:bSR:load_reg\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(0,2)][LB=1] #macrocells=2, #inputs=3, #pterms=3
-{
-    [McSlotId=0]:     MacroCell: Name=Net_2100_0, Mode=(D-Register) @ [UDB=(0,2)][LB=1][MC=0]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (cydff_1)
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !cydff_2 * !Net_2100_0
-        );
-        Output = Net_2100_0 (fanout=9)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=Net_2100_1, Mode=(D-Register) @ [UDB=(0,2)][LB=1][MC=2]
-        Total # of inputs        : 3
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = (cydff_1)
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !cydff_2 * !Net_2100_1 * Net_2100_0
-            + !cydff_2 * Net_2100_1 * !Net_2100_0
-        );
-        Output = Net_2100_1 (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-UDB [UDB=(0,3)] contents:
-datapathcell: Name =\ShiftReg_5:bSR:sC24:BShiftRegDp:u0\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_5:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_5:bSR:status_0\ ,
-        route_si => Net_660 ,
-        so_comb => Net_667 ,
-        chain_out => \ShiftReg_5:bSR:sC24:BShiftRegDp:carry0\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100000000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Next in chain : \ShiftReg_5:bSR:sC24:BShiftRegDp:u1\
-
-UDB [UDB=(0,4)] contents:
-datapathcell: Name =\ShiftReg_6:bSR:sC24:BShiftRegDp:u0\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_6:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_5:bSR:status_0\ ,
-        route_si => Net_667 ,
-        so_comb => Net_660 ,
-        chain_out => \ShiftReg_6:bSR:sC24:BShiftRegDp:carry0\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100000000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Next in chain : \ShiftReg_6:bSR:sC24:BShiftRegDp:u1\
-
-UDB [UDB=(0,5)] contents:
-datapathcell: Name =\ShiftReg_6:bSR:sC24:BShiftRegDp:u1\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_6:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_5:bSR:status_0\ ,
-        route_si => Net_667 ,
-        chain_in => \ShiftReg_6:bSR:sC24:BShiftRegDp:carry0\ ,
-        chain_out => \ShiftReg_6:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_6:bSR:sC24:BShiftRegDp:u0\
-    Next in chain : \ShiftReg_6:bSR:sC24:BShiftRegDp:u2\
-
-UDB [UDB=(1,0)] contents:
-LAB@[UDB=(1,0)][LB=0] #macrocells=1, #inputs=4, #pterms=1
-{
-    [McSlotId=0]:     MacroCell: Name=AMuxHw_1_Decoder_one_hot_0, Mode=(D-Register) @ [UDB=(1,0)][LB=0][MC=0]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_2059) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !AMuxHw_1_Decoder_old_id_1 * !Net_2100_1 * 
-              !AMuxHw_1_Decoder_old_id_0 * !Net_2100_0
-        );
-        Output = AMuxHw_1_Decoder_one_hot_0 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(1,0)][LB=1] #macrocells=2, #inputs=3, #pterms=5
-{
-    [McSlotId=0]:     MacroCell: Name=Net_686, Mode=(T-Register) @ [UDB=(1,0)][LB=1][MC=0]
-        Total # of inputs        : 3
-        Total # of product terms : 2
-        List of special equations: 
-            Clock  = !(ClockBlock_BUS_CLK) => Global
-            Clock Enable: True
-        Main Equation            : 2 pterms
-        (
-              !Net_660 * !Net_698 * Net_686
-            + Net_660 * Net_698 * !Net_686
-        );
-        Output = Net_686 (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]:     MacroCell: Name=Net_697, Mode=(D-Register) @ [UDB=(1,0)][LB=1][MC=2]
-        Total # of inputs        : 3
-        Total # of product terms : 4
-        List of special equations: 
-            Clock  = !(ClockBlock_BUS_CLK) => Global
-            Clock Enable: True
-        Main Equation            : 4 pterms
-        (
-              !Net_660 * !Net_698 * Net_686
-            + !Net_660 * Net_698 * !Net_686
-            + Net_660 * !Net_698 * !Net_686
-            + Net_660 * Net_698 * Net_686
-        );
-        Output = Net_697 (fanout=4)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-UDB [UDB=(1,1)] contents:
-LAB@[UDB=(1,1)][LB=0] #macrocells=2, #inputs=12, #pterms=2
-{
-    [McSlotId=0]:     MacroCell: Name=Net_849, Mode=(Combinatorial) @ [UDB=(1,1)][LB=0][MC=0]
-        Total # of inputs        : 8
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !Net_872_6 * !Net_872_5 * !Net_872_4 * !Net_872_3 * !Net_872_2 * 
-              !Net_872_1 * Net_872_0 * ClockBlock_BUS_CLK_local
-        );
-        Output = Net_849 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=AMuxHw_1_Decoder_one_hot_2, Mode=(D-Register) @ [UDB=(1,1)][LB=0][MC=1]
-        Total # of inputs        : 4
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_2059) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              AMuxHw_1_Decoder_old_id_1 * Net_2100_1 * 
-              !AMuxHw_1_Decoder_old_id_0 * !Net_2100_0
-        );
-        Output = AMuxHw_1_Decoder_one_hot_2 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(1,1)][LB=1] #macrocells=1, #inputs=1, #pterms=1
-{
-    [McSlotId=0]:     MacroCell: Name=cydff_1, Mode=(D-Register) @ [UDB=(1,1)][LB=1][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_849)
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_697
-        );
-        Output = cydff_1 (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]: (empty)
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-datapathcell: Name =\ShiftReg_7:bSR:sC24:BShiftRegDp:u0\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_7:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_7:bSR:status_0\ ,
-        route_si => Net_697 ,
-        so_comb => Net_679 ,
-        chain_out => \ShiftReg_7:bSR:sC24:BShiftRegDp:carry0\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100000000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Next in chain : \ShiftReg_7:bSR:sC24:BShiftRegDp:u1\
-
-count7cell: Name =\Count7_1:Counter7\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        count_6 => Net_872_6 ,
-        count_5 => Net_872_5 ,
-        count_4 => Net_872_4 ,
-        count_3 => Net_872_3 ,
-        count_2 => Net_872_2 ,
-        count_1 => Net_872_1 ,
-        count_0 => Net_872_0 ,
-        tc => Net_867 );
-    Properties:
-    {
-        cy_alt_mode = 0
-        cy_init_value = "0000000"
-        cy_period = "1111111"
-        cy_route_en = 0
-        cy_route_ld = 0
-    }
-    Clock Polarity: Active Low
-    Clock Enable: True
-
-UDB [UDB=(1,2)] contents:
-LAB@[UDB=(1,2)][LB=0] #macrocells=2, #inputs=3, #pterms=2
-{
-    [McSlotId=0]: (empty)
-    [McSlotId=1]:     MacroCell: Name=cydff_2, Mode=(D-Register) @ [UDB=(1,2)][LB=0][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (Net_853)
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_686
-        );
-        Output = cydff_2 (fanout=3)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=\ShiftReg_5:bSR:status_0\, Mode=(Combinatorial) @ [UDB=(1,2)][LB=0][MC=2]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              !\ShiftReg_5:bSR:load_reg\ * Net_703
-        );
-        Output = \ShiftReg_5:bSR:status_0\ (fanout=8)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-LAB@[UDB=(1,2)][LB=1] #macrocells=3, #inputs=4, #pterms=3
-{
-    [McSlotId=0]:     MacroCell: Name=Net_917, Mode=(D-Register) @ [UDB=(1,2)][LB=1][MC=0]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (ClockBlock_BUS_CLK) => Global
-            Clock Enable: PosEdge(Net_867)
-        Main Equation            : 1 pterm
-        (
-              Net_914
-        );
-        Output = Net_917 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=1]:     MacroCell: Name=Net_703, Mode=(D-Register) @ [UDB=(1,2)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (ClockBlock_BUS_CLK) => Global
-            Clock Enable: PosEdge(Net_867)
-        Main Equation            : 1 pterm
-        (
-              Net_860
-        );
-        Output = Net_703 (fanout=2)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]:     MacroCell: Name=Net_853, Mode=(Combinatorial) @ [UDB=(1,2)][LB=1][MC=2]
-        Total # of inputs        : 2
-        Total # of product terms : 1
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_867 * ClockBlock_BUS_CLK_local
-        );
-        Output = Net_853 (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=3]: (empty)
-}
-
-statuscell: Name =\SWReg_Channel1:sts:sts_reg\
-    PORT MAP (
-        status_1 => Net_2100_1 ,
-        status_0 => Net_2100_0 );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_md_select = "00000000"
-    }
-    Clock Enable: True
-
-controlcell: Name =\Control_Reg_1:Sync:ctrl_reg\
-    PORT MAP (
-        control_7 => \Control_Reg_1:control_7\ ,
-        control_6 => \Control_Reg_1:control_6\ ,
-        control_5 => \Control_Reg_1:control_5\ ,
-        control_4 => \Control_Reg_1:control_4\ ,
-        control_3 => \Control_Reg_1:control_3\ ,
-        control_2 => \Control_Reg_1:control_2\ ,
-        control_1 => Net_914 ,
-        control_0 => Net_860 );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000000"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Enable: True
-
-UDB [UDB=(1,3)] contents:
-LAB@[UDB=(1,3)][LB=1] #macrocells=1, #inputs=1, #pterms=1
-{
-    [McSlotId=0]: (empty)
-    [McSlotId=1]:     MacroCell: Name=\ShiftReg_5:bSR:load_reg\, Mode=(D-Register) @ [UDB=(1,3)][LB=1][MC=1]
-        Total # of inputs        : 1
-        Total # of product terms : 1
-        List of special equations: 
-            Clock  = (ClockBlock_BUS_CLK) => Global
-            Clock Enable: True
-        Main Equation            : 1 pterm
-        (
-              Net_703
-        );
-        Output = \ShiftReg_5:bSR:load_reg\ (fanout=1)
-        Properties               : 
-        {
-        }
-
-    [McSlotId=2]: (empty)
-    [McSlotId=3]: (empty)
-}
-
-datapathcell: Name =\ShiftReg_5:bSR:sC24:BShiftRegDp:u1\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_5:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_5:bSR:status_0\ ,
-        route_si => Net_660 ,
-        chain_in => \ShiftReg_5:bSR:sC24:BShiftRegDp:carry0\ ,
-        chain_out => \ShiftReg_5:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_5:bSR:sC24:BShiftRegDp:u0\
-    Next in chain : \ShiftReg_5:bSR:sC24:BShiftRegDp:u2\
-
-controlcell: Name =\ShiftReg_5:bSR:SyncCtl:CtrlReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        control_7 => \ShiftReg_5:bSR:control_7\ ,
-        control_6 => \ShiftReg_5:bSR:control_6\ ,
-        control_5 => \ShiftReg_5:bSR:control_5\ ,
-        control_4 => \ShiftReg_5:bSR:control_4\ ,
-        control_3 => \ShiftReg_5:bSR:control_3\ ,
-        control_2 => \ShiftReg_5:bSR:control_2\ ,
-        control_1 => \ShiftReg_5:bSR:control_1\ ,
-        control_0 => \ShiftReg_5:bSR:ctrl_clk_enable\ );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000001"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(1,4)] contents:
-datapathcell: Name =\ShiftReg_5:bSR:sC24:BShiftRegDp:u2\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_5:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_5:bSR:status_0\ ,
-        route_si => Net_660 ,
-        f0_bus_stat_comb => \ShiftReg_5:bSR:status_4\ ,
-        f0_blk_stat_comb => \ShiftReg_5:bSR:status_3\ ,
-        f1_bus_stat_comb => \ShiftReg_5:bSR:status_6\ ,
-        f1_blk_stat_comb => \ShiftReg_5:bSR:status_5\ ,
-        chain_in => \ShiftReg_5:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110101001001000111100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_5:bSR:sC24:BShiftRegDp:u1\
-
-statusicell: Name =\ShiftReg_5:bSR:StsReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        status_6 => \ShiftReg_5:bSR:status_6\ ,
-        status_5 => \ShiftReg_5:bSR:status_5\ ,
-        status_4 => \ShiftReg_5:bSR:status_4\ ,
-        status_3 => \ShiftReg_5:bSR:status_3\ ,
-        status_0 => \ShiftReg_5:bSR:status_0\ );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_int_mask = "0000111"
-        cy_md_select = "0000111"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(1,5)] contents:
-datapathcell: Name =\ShiftReg_6:bSR:sC24:BShiftRegDp:u2\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_6:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_5:bSR:status_0\ ,
-        route_si => Net_667 ,
-        f0_bus_stat_comb => \ShiftReg_6:bSR:status_4\ ,
-        f0_blk_stat_comb => \ShiftReg_6:bSR:status_3\ ,
-        f1_bus_stat_comb => \ShiftReg_6:bSR:status_6\ ,
-        f1_blk_stat_comb => \ShiftReg_6:bSR:status_5\ ,
-        chain_in => \ShiftReg_6:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110101001001000111100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_6:bSR:sC24:BShiftRegDp:u1\
-
-statusicell: Name =\ShiftReg_6:bSR:StsReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        status_6 => \ShiftReg_6:bSR:status_6\ ,
-        status_5 => \ShiftReg_6:bSR:status_5\ ,
-        status_4 => \ShiftReg_6:bSR:status_4\ ,
-        status_3 => \ShiftReg_6:bSR:status_3\ ,
-        status_0 => \ShiftReg_5:bSR:status_0\ );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_int_mask = "0000111"
-        cy_md_select = "0000111"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-controlcell: Name =\ShiftReg_6:bSR:SyncCtl:CtrlReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        control_7 => \ShiftReg_6:bSR:control_7\ ,
-        control_6 => \ShiftReg_6:bSR:control_6\ ,
-        control_5 => \ShiftReg_6:bSR:control_5\ ,
-        control_4 => \ShiftReg_6:bSR:control_4\ ,
-        control_3 => \ShiftReg_6:bSR:control_3\ ,
-        control_2 => \ShiftReg_6:bSR:control_2\ ,
-        control_1 => \ShiftReg_6:bSR:control_1\ ,
-        control_0 => \ShiftReg_6:bSR:ctrl_clk_enable\ );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000001"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(2,0)] contents:
-datapathcell: Name =\ShiftReg_8:bSR:sC24:BShiftRegDp:u0\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_8:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_7:bSR:status_0\ ,
-        route_si => Net_679 ,
-        so_comb => Net_698 ,
-        chain_out => \ShiftReg_8:bSR:sC24:BShiftRegDp:carry0\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100000000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Next in chain : \ShiftReg_8:bSR:sC24:BShiftRegDp:u1\
-
-controlcell: Name =\ShiftReg_8:bSR:SyncCtl:CtrlReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        control_7 => \ShiftReg_8:bSR:control_7\ ,
-        control_6 => \ShiftReg_8:bSR:control_6\ ,
-        control_5 => \ShiftReg_8:bSR:control_5\ ,
-        control_4 => \ShiftReg_8:bSR:control_4\ ,
-        control_3 => \ShiftReg_8:bSR:control_3\ ,
-        control_2 => \ShiftReg_8:bSR:control_2\ ,
-        control_1 => \ShiftReg_8:bSR:control_1\ ,
-        control_0 => \ShiftReg_8:bSR:ctrl_clk_enable\ );
-    Properties:
-    {
-        cy_ctrl_mode_0 = "00000001"
-        cy_ctrl_mode_1 = "00000000"
-        cy_ext_reset = 0
-        cy_force_order = 1
-        cy_init_value = "00000000"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(2,1)] is empty.
-UDB [UDB=(2,2)] is empty.
-UDB [UDB=(2,3)] is empty.
-UDB [UDB=(2,4)] is empty.
-UDB [UDB=(2,5)] is empty.
-UDB [UDB=(3,0)] contents:
-datapathcell: Name =\ShiftReg_8:bSR:sC24:BShiftRegDp:u1\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_8:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_7:bSR:status_0\ ,
-        route_si => Net_679 ,
-        chain_in => \ShiftReg_8:bSR:sC24:BShiftRegDp:carry0\ ,
-        chain_out => \ShiftReg_8:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110111101001000011100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_8:bSR:sC24:BShiftRegDp:u0\
-    Next in chain : \ShiftReg_8:bSR:sC24:BShiftRegDp:u2\
-
-UDB [UDB=(3,1)] contents:
-datapathcell: Name =\ShiftReg_8:bSR:sC24:BShiftRegDp:u2\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        cs_addr_2 => \ShiftReg_8:bSR:ctrl_clk_enable\ ,
-        cs_addr_1 => \ShiftReg_7:bSR:status_0\ ,
-        route_si => Net_679 ,
-        f0_bus_stat_comb => \ShiftReg_8:bSR:status_4\ ,
-        f0_blk_stat_comb => \ShiftReg_8:bSR:status_3\ ,
-        f1_bus_stat_comb => \ShiftReg_8:bSR:status_6\ ,
-        f1_blk_stat_comb => \ShiftReg_8:bSR:status_5\ ,
-        chain_in => \ShiftReg_8:bSR:sC24:BShiftRegDp:carry1\ );
-    Properties:
-    {
-        a0_init = "00000000"
-        a1_init = "00000000"
-        ce0_sync = 1
-        ce1_sync = 1
-        cl0_sync = 1
-        cl1_sync = 1
-        cmsb_sync = 1
-        co_msb_sync = 1
-        cy_dpconfig = "0000100000000000000010000000000000001000000000000000100000000000000010100101000010101000010000000000000011000000101010000100000011111111000000001111111111111111010101011110101001001000111100100000000000011100"
-        d0_init = "00000000"
-        d1_init = "00000000"
-        f0_blk_sync = 1
-        f0_bus_sync = 1
-        f1_blk_sync = 1
-        f1_bus_sync = 1
-        ff0_sync = 1
-        ff1_sync = 1
-        ov_msb_sync = 1
-        so_sync = 1
-        z0_sync = 1
-        z1_sync = 1
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-    Previous in chain : \ShiftReg_8:bSR:sC24:BShiftRegDp:u1\
-
-statusicell: Name =\ShiftReg_8:bSR:StsReg\
-    PORT MAP (
-        clock => ClockBlock_BUS_CLK ,
-        status_6 => \ShiftReg_8:bSR:status_6\ ,
-        status_5 => \ShiftReg_8:bSR:status_5\ ,
-        status_4 => \ShiftReg_8:bSR:status_4\ ,
-        status_3 => \ShiftReg_8:bSR:status_3\ ,
-        status_0 => \ShiftReg_7:bSR:status_0\ );
-    Properties:
-    {
-        cy_force_order = 1
-        cy_int_mask = "0000111"
-        cy_md_select = "0000111"
-    }
-    Clock Polarity: Active High
-    Clock Enable: True
-
-UDB [UDB=(3,2)] is empty.
-UDB [UDB=(3,3)] is empty.
-UDB [UDB=(3,4)] is empty.
-UDB [UDB=(3,5)] is empty.
-Intr container @ [IntrContainer=(0)]: 
-  Intr@ [IntrContainer=(0)][IntrId=(0)] 
-    interrupt: Name =\ADC_Channel1:IRQ\
-        PORT MAP (
-            interrupt => Net_2019 );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(1)] 
-    interrupt: Name =\USBUART_1:ep_1\
-        PORT MAP (
-            interrupt => \USBUART_1:ep_int_1\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(2)] 
-    interrupt: Name =\USBUART_1:ep_2\
-        PORT MAP (
-            interrupt => \USBUART_1:ep_int_2\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(3)] 
-    interrupt: Name =\USBUART_1:ep_3\
-        PORT MAP (
-            interrupt => \USBUART_1:ep_int_3\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(4)] 
-    interrupt: Name =\USBUART_1:sof_int\
-        PORT MAP (
-            interrupt => Net_479 );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(12)] 
-    interrupt: Name =\USBUART_1:dp_int\
-        PORT MAP (
-            interrupt => \USBUART_1:Net_1010\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(21)] 
-    interrupt: Name =USB_isr
-        PORT MAP (
-            interrupt => Net_479 );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(22)] 
-    interrupt: Name =\USBUART_1:arb_int\
-        PORT MAP (
-            interrupt => \USBUART_1:Net_1889\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(23)] 
-    interrupt: Name =\USBUART_1:bus_reset\
-        PORT MAP (
-            interrupt => \USBUART_1:Net_1876\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-  Intr@ [IntrContainer=(0)][IntrId=(24)] 
-    interrupt: Name =\USBUART_1:ep_0\
-        PORT MAP (
-            interrupt => \USBUART_1:ep_int_0\ );
-        Properties:
-        {
-            int_type = "10"
-            is_nmi = 0
-        }
-Drq container @ [DrqContainer=(0)]: 
-  Dma@ [DrqContainer=(0)][DrqId=(0)] 
-    drqcell: Name =\USBUART_1:ep1\
-        PORT MAP (
-            dmareq => \USBUART_1:dma_request_0\ ,
-            termin => \USBUART_1:dma_terminate\ ,
-            termout => \USBUART_1:Net_1495\ );
-        Properties:
-        {
-            drq_type = "10"
-            num_tds = 0
-        }
-  Dma@ [DrqContainer=(0)][DrqId=(1)] 
-    drqcell: Name =\USBUART_1:ep2\
-        PORT MAP (
-            dmareq => \USBUART_1:dma_request_1\ ,
-            termin => \USBUART_1:dma_terminate\ ,
-            termout => \USBUART_1:Net_1498\ );
-        Properties:
-        {
-            drq_type = "10"
-            num_tds = 0
-        }
-  Dma@ [DrqContainer=(0)][DrqId=(2)] 
-    drqcell: Name =\USBUART_1:ep3\
-        PORT MAP (
-            dmareq => \USBUART_1:dma_request_2\ ,
-            termin => \USBUART_1:dma_terminate\ ,
-            termout => \USBUART_1:Net_1559\ );
-        Properties:
-        {
-            drq_type = "10"
-            num_tds = 0
-        }
-Port 0 contains the following IO cells:
-[IoId=0]: 
-Pin : Name = Pin_2(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: NOSYNC
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: CMOS_OUT
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: False
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: DIGITAL, ROUTABLE
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Pin_2(0)__PA ,
-        pin_input => cydff_2 ,
-        pad => Pin_2(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=1]: 
-Pin : Name = Channel_1(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Channel_1(0)__PA ,
-        analog_term => Net_2132 ,
-        pad => Channel_1(0)_PAD );
-    Properties:
-    {
-    }
-
-[IoId=7]: 
-Pin : Name = Pin_1(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Pin_1(0)__PA ,
-        analog_term => Net_1688 ,
-        pad => Pin_1(0)_PAD );
-    Properties:
-    {
-    }
-
-Port 1 contains the following IO cells:
-[IoId=7]: 
-Pin : Name = Channel1_R(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Channel1_R(0)__PA ,
-        pad => Channel1_R(0)_PAD );
-    Properties:
-    {
-    }
-
-Port 2 contains the following IO cells:
-[IoId=3]: 
-Pin : Name = Cap1_1(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Cap1_1(0)__PA ,
-        analog_term => Net_1963 ,
-        pad => Cap1_1(0)_PAD ,
-        pin_input => AMuxHw_1_Decoder_one_hot_0 );
-    Properties:
-    {
-    }
-
-[IoId=4]: 
-Pin : Name = Cap1_2(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Cap1_2(0)__PA ,
-        analog_term => Net_1964 ,
-        pad => Cap1_2(0)_PAD ,
-        pin_input => AMuxHw_1_Decoder_one_hot_1 );
-    Properties:
-    {
-    }
-
-[IoId=5]: 
-Pin : Name = Cap1_3(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Cap1_3(0)__PA ,
-        analog_term => Net_1965 ,
-        pad => Cap1_3(0)_PAD ,
-        pin_input => AMuxHw_1_Decoder_one_hot_2 );
-    Properties:
-    {
-    }
-
-[IoId=6]: 
-Pin : Name = Cap1_4(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Cap1_4(0)__PA ,
-        analog_term => Net_1966 ,
-        pad => Cap1_4(0)_PAD ,
-        pin_input => AMuxHw_1_Decoder_one_hot_3 );
-    Properties:
-    {
-    }
-
-Port 3 contains the following IO cells:
-[IoId=6]: 
-Pin : Name = Dedicated_Output
-    Attributes:
-        In Group/Port: False
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Dedicated_Output__PA ,
-        analog_term => Net_1696 );
-    Properties:
-    {
-    }
-
-[IoId=7]: 
-Pin : Name = Vout_R1(0)
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: ANALOG
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => Vout_R1(0)__PA ,
-        analog_term => Net_1819 ,
-        pad => Vout_R1(0)_PAD );
-    Properties:
-    {
-    }
-
-Port 12 contains the following IO cells:
-Port 15 generates interrupt for logical port:
-    logicalport: Name =\USBUART_1:Dp\
-        PORT MAP (
-            in_clock_en => one ,
-            in_reset => zero ,
-            out_clock_en => one ,
-            out_reset => zero ,
-            interrupt => \USBUART_1:Net_1010\ ,
-            in_clock => ClockBlock_BUS_CLK );
-        Properties:
-        {
-            drive_mode = "000"
-            ibuf_enabled = "0"
-            id = "beca5e2d-f70f-4900-a4db-7eca1ed3126e/618a72fc-5ddd-4df5-958f-a3d55102db42"
-            init_dr_st = "1"
-            input_buffer_sel = "00"
-            input_clk_en = 0
-            input_sync = "1"
-            input_sync_mode = "0"
-            intr_mode = "10"
-            invert_in_clock = 0
-            invert_in_clock_en = 0
-            invert_in_reset = 0
-            invert_out_clock = 0
-            invert_out_clock_en = 0
-            invert_out_reset = 0
-            io_voltage = ""
-            layout_mode = "CONTIGUOUS"
-            oe_conn = "0"
-            oe_reset = 0
-            oe_sync = "0"
-            output_clk_en = 0
-            output_clock_mode = "0"
-            output_conn = "0"
-            output_mode = "0"
-            output_reset = 0
-            output_sync = "0"
-            ovt_hyst_trim = "0"
-            ovt_needed = "0"
-            ovt_slew_control = "00"
-            pa_in_clock = -1
-            pa_in_clock_en = -1
-            pa_in_reset = -1
-            pa_out_clock = -1
-            pa_out_clock_en = -1
-            pa_out_reset = -1
-            pin_aliases = ""
-            pin_mode = "I"
-            por_state = 4
-            port_alias_group = ""
-            port_alias_required = 0
-            sio_group_cnt = 0
-            sio_hifreq = "00000000"
-            sio_hyst = "1"
-            sio_ibuf = "00000000"
-            sio_info = "00"
-            sio_obuf = "00000000"
-            sio_refsel = "00000000"
-            sio_vohsel = "00000000"
-            sio_vtrip = "00000000"
-            slew_rate = "0"
-            spanning = 0
-            sw_only = 0
-            use_annotation = "0"
-            vtrip = "00"
-            width = 1
-        }
-    and contains the following IO cells:
-[IoId=6]: 
-Pin : Name = \USBUART_1:Dp(0)\
-    Attributes:
-        In Group/Port: True
-        In Sync Option: SYNC
-        Out Sync Option: AUTO
-        Interrupt generated: True
-        Interrupt mode: FALLING
-        Drive mode: HI_Z_ANALOG
-        VTrip: CMOS
-        Slew: FAST
-        Input Sync needed: True
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: False
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: True
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: USB_D_PLUS
-        Initial Value: 1
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => \USBUART_1:Dp(0)\__PA ,
-        analog_term => \USBUART_1:Net_1000\ ,
-        pad => \USBUART_1:Dp(0)_PAD\ );
-    Properties:
-    {
-    }
-
-[IoId=7]: 
-Pin : Name = \USBUART_1:Dm(0)\
-    Attributes:
-        In Group/Port: True
-        In Sync Option: AUTO
-        Out Sync Option: AUTO
-        Interrupt generated: False
-        Interrupt mode: NONE
-        Drive mode: HI_Z_ANALOG
-        VTrip: EITHER
-        Slew: FAST
-        Input Sync needed: False
-        Output Sync needed: False
-        SC shield enabled: False
-        POR State: ANY
-        LCD Mode: COMMON
-        Register Mode: RegComb
-        CaSense Mode: NEITHER
-        Treat as pin: True
-        Is OE Registered: False
-        Uses Analog: True
-        Can contain Digital: False
-        Is SIO: False
-        SIO Output Buf: NONREGULATED
-        SIO Input Buf: SINGLE_ENDED
-        SIO HiFreq: LOW
-        SIO Hyst: DISABLED
-        SIO Vtrip: MULTIPLIER_0_5
-        SIO Multiplier Index: 0
-        SIO RefSel: VCC_IO
-        Required Capabilities: USB_D_MINUS
-        Initial Value: 0
-        IO Voltage: 0
-    PORT MAP (
-        pa_out => \USBUART_1:Dm(0)\__PA ,
-        analog_term => \USBUART_1:Net_597\ ,
-        pad => \USBUART_1:Dm(0)_PAD\ );
-    Properties:
-    {
-    }
-
-ARM group 0: empty
-CAN group 0: empty
-Cache group 0: empty
-CapSense group 0: empty
-Clock group 0: 
-    Clock Block @ F(Clock,0): 
-    clockblockcell: Name =ClockBlock
-        PORT MAP (
-            imo => ClockBlock_IMO ,
-            pllout => ClockBlock_PLL_OUT ,
-            ilo => ClockBlock_ILO ,
-            clk_100k => ClockBlock_100k ,
-            clk_1k => ClockBlock_1k ,
-            clk_32k => ClockBlock_32k ,
-            xtal => ClockBlock_XTAL ,
-            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
-            clk_sync => ClockBlock_MASTER_CLK ,
-            clk_bus_glb => ClockBlock_BUS_CLK ,
-            clk_bus => ClockBlock_BUS_CLK_local ,
-            dclk_glb_0 => Net_2059 ,
-            dclk_0 => Net_2059_local ,
-            aclk_glb_0 => \ADC_Channel1:Net_385\ ,
-            aclk_0 => \ADC_Channel1:Net_385_local\ ,
-            clk_a_dig_glb_0 => \ADC_Channel1:Net_381\ ,
-            clk_a_dig_0 => \ADC_Channel1:Net_381_local\ );
-        Properties:
-        {
-        }
-Comparator group 0: empty
-DFB group 0: empty
-DSM group 0: empty
-Decimator group 0: empty
-EMIF group 0: empty
-I2C group 0: empty
-LCD group 0: empty
-LVD group 0: empty
-PICU group 0: empty
-PM group 0: empty
-SC group 0: 
-    SC Block @ F(SC,2): 
-    sccell: Name =\PGA_Channel1:SC\
-        PORT MAP (
-            vref => Net_1685 ,
-            vin => Net_1696 ,
-            modout => \PGA_Channel1:Net_30\ ,
-            vout => Net_1688 );
-        Properties:
-        {
-            cy_registers = ""
-        }
-SPC group 0: empty
-Timer group 0: empty
-USB group 0: 
-    USB Block @ F(USB,0): 
-    usbcell: Name =\USBUART_1:USB\
-        PORT MAP (
-            dp => \USBUART_1:Net_1000\ ,
-            dm => \USBUART_1:Net_597\ ,
-            sof_int => Net_479 ,
-            arb_int => \USBUART_1:Net_1889\ ,
-            usb_int => \USBUART_1:Net_1876\ ,
-            ept_int_8 => \USBUART_1:ep_int_8\ ,
-            ept_int_7 => \USBUART_1:ep_int_7\ ,
-            ept_int_6 => \USBUART_1:ep_int_6\ ,
-            ept_int_5 => \USBUART_1:ep_int_5\ ,
-            ept_int_4 => \USBUART_1:ep_int_4\ ,
-            ept_int_3 => \USBUART_1:ep_int_3\ ,
-            ept_int_2 => \USBUART_1:ep_int_2\ ,
-            ept_int_1 => \USBUART_1:ep_int_1\ ,
-            ept_int_0 => \USBUART_1:ep_int_0\ ,
-            ord_int => \USBUART_1:Net_95\ ,
-            dma_req_7 => \USBUART_1:dma_request_7\ ,
-            dma_req_6 => \USBUART_1:dma_request_6\ ,
-            dma_req_5 => \USBUART_1:dma_request_5\ ,
-            dma_req_4 => \USBUART_1:dma_request_4\ ,
-            dma_req_3 => \USBUART_1:dma_request_3\ ,
-            dma_req_2 => \USBUART_1:dma_request_2\ ,
-            dma_req_1 => \USBUART_1:dma_request_1\ ,
-            dma_req_0 => \USBUART_1:dma_request_0\ ,
-            dma_termin => \USBUART_1:dma_terminate\ );
-        Properties:
-        {
-            cy_registers = ""
-        }
-VIDAC group 0: empty
-OpAmp group 0: 
-    Opamp Block @ F(OpAmp,1): 
-    abufcell: Name =\Opamp_Channel1:ABuf\
-        PORT MAP (
-            vplus => Net_2132 ,
-            vminus => Net_1696 ,
-            vout => Net_1696 );
-        Properties:
-        {
-            cy_registers = ""
-        }
-    Opamp Block @ F(OpAmp,3): 
-    abufcell: Name =\Opamp_Channel1_1:ABuf\
-        PORT MAP (
-            vplus => Net_1685 ,
-            vminus => Net_1819 ,
-            vout => Net_1819 );
-        Properties:
-        {
-            cy_registers = ""
-        }
-CsAbuf group 0: empty
-Vref group 0: 
-    Vref Block @ F(Vref,1): 
-    vrefcell: Name =vRef_1
-        PORT MAP (
-            vout => Net_1685 );
-        Properties:
-        {
-            autoenable = 1
-            guid = "4720866E-BC14-478d-B8A0-3E44F38CADAC"
-            ignoresleep = 0
-            name = "Vdda/2"
-        }
-    Vref Block @ F(Vref,13): 
-    vrefcell: Name =\ADC_Channel1:vRef_Vdda_1\
-        PORT MAP (
-            vout => \ADC_Channel1:Net_235\ );
-        Properties:
-        {
-            autoenable = 1
-            guid = "4720866E-BC14-478d-B8A0-3E44F38CADAC"
-            ignoresleep = 0
-            name = "Vdda/2"
-        }
-LPF group 0: empty
-SAR group 0: 
-    SAR Block @ F(SAR,0): 
-    sarcell: Name =\ADC_Channel1:ADC_SAR\
-        PORT MAP (
-            vplus => Net_1688 ,
-            vminus => \ADC_Channel1:Net_126\ ,
-            ext_pin => \ADC_Channel1:Net_209\ ,
-            vrefhi_out => \ADC_Channel1:Net_126\ ,
-            vref => \ADC_Channel1:Net_235\ ,
-            clock => \ADC_Channel1:Net_385\ ,
-            pump_clock => \ADC_Channel1:Net_385\ ,
-            sof_udb => Net_1973 ,
-            irq => \ADC_Channel1:Net_252\ ,
-            next => Net_2022 ,
-            data_out_udb_11 => \ADC_Channel1:Net_207_11\ ,
-            data_out_udb_10 => \ADC_Channel1:Net_207_10\ ,
-            data_out_udb_9 => \ADC_Channel1:Net_207_9\ ,
-            data_out_udb_8 => \ADC_Channel1:Net_207_8\ ,
-            data_out_udb_7 => \ADC_Channel1:Net_207_7\ ,
-            data_out_udb_6 => \ADC_Channel1:Net_207_6\ ,
-            data_out_udb_5 => \ADC_Channel1:Net_207_5\ ,
-            data_out_udb_4 => \ADC_Channel1:Net_207_4\ ,
-            data_out_udb_3 => \ADC_Channel1:Net_207_3\ ,
-            data_out_udb_2 => \ADC_Channel1:Net_207_2\ ,
-            data_out_udb_1 => \ADC_Channel1:Net_207_1\ ,
-            data_out_udb_0 => \ADC_Channel1:Net_207_0\ ,
-            eof_udb => Net_2019 );
-        Properties:
-        {
-            cy_registers = ""
-        }
-ANAIF group 0: empty
-PHUB group 0: empty
-
-Blocks not positioned by the digital component placer:
-    Amux Block @ <No Location>: 
-    amuxcell: Name =AMuxHw_1
-        PORT MAP (
-            muxin_3 => Net_1966 ,
-            muxin_2 => Net_1965 ,
-            muxin_1 => Net_1964 ,
-            muxin_0 => Net_1963 ,
-            vout => Net_2132 );
-        Properties:
-        {
-            api_type = 2
-            connect_mode = 1
-            cy_registers = ""
-            hw_control = 1
-            init_mux_sel = "0000"
-            muxin_width = 4
-            one_active = 1
-        }
-</CYPRESSTAG>
-<CYPRESSTAG name="Port Configuration Details">
-
-------------------------------------------------------------
-Port Configuration report
-------------------------------------------------------------
-     |     |       | Interrupt |                  |                   | 
-Port | Pin | Fixed |      Type |       Drive Mode |              Name | Connections
------+-----+-------+-----------+------------------+-------------------+-------------------------------------------------
-   0 |   0 |     * |      NONE |         CMOS_OUT |          Pin_2(0) | In(cydff_2)
-     |   1 |     * |      NONE |      HI_Z_ANALOG |      Channel_1(0) | Analog(Net_2132)
-     |   7 |     * |      NONE |      HI_Z_ANALOG |          Pin_1(0) | Analog(Net_1688)
------+-----+-------+-----------+------------------+-------------------+-------------------------------------------------
-   1 |   7 |     * |      NONE |      HI_Z_ANALOG |     Channel1_R(0) | 
------+-----+-------+-----------+------------------+-------------------+-------------------------------------------------
-   2 |   3 |     * |      NONE |      HI_Z_ANALOG |         Cap1_1(0) | In(AMuxHw_1_Decoder_one_hot_0), Analog(Net_1963)
-     |   4 |     * |      NONE |      HI_Z_ANALOG |         Cap1_2(0) | In(AMuxHw_1_Decoder_one_hot_1), Analog(Net_1964)
-     |   5 |     * |      NONE |      HI_Z_ANALOG |         Cap1_3(0) | In(AMuxHw_1_Decoder_one_hot_2), Analog(Net_1965)
-     |   6 |     * |      NONE |      HI_Z_ANALOG |         Cap1_4(0) | In(AMuxHw_1_Decoder_one_hot_3), Analog(Net_1966)
------+-----+-------+-----------+------------------+-------------------+-------------------------------------------------
-   3 |   6 |       |      NONE |      HI_Z_ANALOG |  Dedicated_Output | Analog(Net_1696)
-     |   7 |     * |      NONE |      HI_Z_ANALOG |        Vout_R1(0) | Analog(Net_1819)
------+-----+-------+-----------+------------------+-------------------+-------------------------------------------------
-  15 |   6 |     * |   FALLING |      HI_Z_ANALOG | \USBUART_1:Dp(0)\ | Analog(\USBUART_1:Net_1000\)
-     |   7 |     * |      NONE |      HI_Z_ANALOG | \USBUART_1:Dm(0)\ | Analog(\USBUART_1:Net_597\)
-------------------------------------------------------------------------------------------------------------------------
-</CYPRESSTAG>
-</CYPRESSTAG>
-</CYPRESSTAG>
-Digital component placer commit/Report: Elapsed time ==> 0s.132ms
-Digital Placement phase: Elapsed time ==> 3s.131ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Digital Routing">
-"C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "Design01_r.vh2" --pcf-path "Design01.pco" --des-name "Design01" --dsf-path "Design01.dsf" --sdc-path "Design01.sdc" --lib-path "Design01_r.lib"
-Routing successful.
-Digital Routing phase: Elapsed time ==> 2s.799ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Bitstream Generation">
-Bitstream Generation phase: Elapsed time ==> 0s.417ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Bitstream Verification">
-Bitstream Verification phase: Elapsed time ==> 0s.064ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Static timing analysis">
-Warning: sta.M0021: Design01_timing.html: Warning-1350: Asynchronous path(s) exist from "CyBUS_CLK" to "CyBUS_CLK(routed)". See the timing report for details. (File=G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01_timing.html)
-Warning: sta.M0021: Design01_timing.html: Warning-1350: Asynchronous path(s) exist from "cydff_1/q" to "Clock_1". See the timing report for details. (File=G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01_timing.html)
-Warning: sta.M0019: Design01_timing.html: Warning-1366: Setup time violation found in a path from clock ( CyBUS_CLK ) to clock ( CyBUS_CLK ). (File=G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01_timing.html)
-Warning: sta.M0019: Design01_timing.html: Warning-1367: Hold time violation found in a path from clock ( CyBUS_CLK(routed) ) to clock ( cydff_1/q ). (File=G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01_timing.html)
-Timing report is in Design01_timing.html.
-Static timing analysis phase: Elapsed time ==> 0s.621ms
-</CYPRESSTAG>
-<CYPRESSTAG name="Data reporting">
-Data reporting phase: Elapsed time ==> 0s.000ms
+Technology Mapping: Elapsed time ==> 0s.437ms
+Tech Mapping phase: Elapsed time ==> 0s.605ms
 </CYPRESSTAG>
 <CYPRESSTAG name="Database update...">
-Design database save phase: Elapsed time ==> 0s.338ms
+Design database save phase: Elapsed time ==> 0s.354ms
 </CYPRESSTAG>
-cydsfit: Elapsed time ==> 10s.921ms
+cydsfit: Elapsed time ==> 1s.181ms
 </CYPRESSTAG>
-Fitter phase: Elapsed time ==> 10s.977ms
-API generation phase: Elapsed time ==> 5s.259ms
-Dependency generation phase: Elapsed time ==> 0s.052ms
-Cleanup phase: Elapsed time ==> 0s.001ms
+Fitter phase: Elapsed time ==> 1s.256ms
+Fitter phase: Elapsed time ==> 0s.000ms
+Dependency generation phase: Elapsed time ==> 0s.068ms
+Cleanup phase: Elapsed time ==> 0s.003ms
