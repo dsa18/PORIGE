@@ -99,7 +99,7 @@ void PGA_Channel1_Enable(void)                ;
 *       Initialization Values
 ***************************************/
 
-#define PGA_Channel1_DEFAULT_GAIN             (0u)
+#define PGA_Channel1_DEFAULT_GAIN             (3u)
 #define PGA_Channel1_DEFAULT_POWER            (1u)
 
 

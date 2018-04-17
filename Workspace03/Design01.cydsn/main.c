@@ -11,10 +11,10 @@
 */
 #include "project.h"
 //#include <unistd.h> 
-/*#include "DSP.h"
-#include <stdlib.h>
+#include "DSP.h"
+/*#include <stdlib.h>
 #include "res.h"
-#include <stdlib.h>
+
 #include <math.h>  
  uint16 Dacc;
 */
@@ -24,7 +24,7 @@ void USB_NeWk();
 
 uint8 count;
 uint8 buffer[128];
-uint8 buffer_out[128];
+
 uint8 buffer_out1[1280];
 uint8 SZ[1000];
 
@@ -43,42 +43,26 @@ ShiftReg_5_Init();
 ShiftReg_6_Init();
 ShiftReg_7_Init();
 ShiftReg_8_Init();
- /*ShiftReg_5_Start();
-ShiftReg_6_Start();*/
+ShiftReg_5_Start();
+ShiftReg_6_Start();
 ShiftReg_7_Start();
 ShiftReg_8_Start();
-// ст     мл     расч             увосьмиренная           RST                  обрат 8             обр RST
-//0068D  B8BAC7 -100                3.2k                  10 но нестабильна      90к                500к
-//04189  374BC6 -1000               32.2к                 2к                     90к                500к      
-//28F5C  28F5C2 -10000              333к                  20к
-//431A 3103AE   -                  32.26k                 1.049k                125к                 500k
-/// пауза 0x0147AE 0x147AE1
 
-for (int i=0;i<0xFFFFFF;i++);
-//for (int i=0;i<0xFFFFFF;i++);
-/*for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);*/
+
+Opamp_Channel1_Init();
+Opamp_Channel1_Start();
+PGA_Channel1_Init();
+PGA_Channel1_Start();
+Opamp_Channel1_1_Init();
+Opamp_Channel1_1_Start();
+
+
  USB_isr_Start();
-    USB_isr_SetVector (USB_NeWk) ;
-//звгрузка
-//    ShiftReg_5_Stop();
- //   ShiftReg_6_Stop();
-        ShiftReg_5_Start();
-    ShiftReg_6_Start();
+ USB_isr_SetVector (USB_NeWk) ;
 
-ShiftReg_5_WriteData(0x353A2);
-ShiftReg_6_WriteData(0x3E83C9);
-
-/*
-for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);
-for (int i=0;i<0xFFFFFF;i++);*/
-                   
-                    
-                    Control_Reg_1_Write(0xFF)   ;
+ShiftReg_5_WriteData(0x003A2);
+ShiftReg_6_WriteData(0x9ba5e3);
+               Control_Reg_1_Write(0xFF)   ;
     for(;;)
     {
       //USB_NeWk();
@@ -112,72 +96,12 @@ CY_ISR (USB_NeWk)
     if(USBUART_1_DataIsReady() != 0u)               
         {   
             count = USBUART_1_GetAll(buffer);           
-            if(count >= 2)
+            if(count >= 0)
             {
                 while(USBUART_1_CDCIsReady() == 0u);   
-                switch (buffer[0]) 
-                {
-                 case 0:
-
-
-                    break;
-                 case 1:
-
-                    
-                    buffer_out[0]='O';
-                    buffer_out[1]='1';
-                    USBUART_1_PutData(buffer_out, 2); 
-                    break;
-                 case 2:
-                    //PGA_Inv_1_SetGain(buffer[1]);
-                    buffer_out[0]='O';
-                    buffer_out[1]='2';
-                    USBUART_1_PutData(buffer_out, 2); 
-
-                    break;
-                  case 3:
-                   // ADC_SAR_1_SetOffset(buffer[1]);
-                    buffer_out[0]='O';
-                    buffer_out[1]='3';
-                    USBUART_1_PutData(buffer_out, 2); 
-                    break;
-                  case 4:
-//                    Sel_Gen_Write(buffer[1]);
-                    buffer_out[0]='O';
-                    buffer_out[1]='4';
-                    USBUART_1_PutData(buffer_out, 2); 
-                    break;
-                   case 5:
-
-                   // WORD=buffer[1];
-                    //buffer_out[2]=WORD;
-                    buffer_out[0]='O';
-                    buffer_out[1]='5';
-                    USBUART_1_PutData(buffer_out, 3); 
-                    break;
-                case 7:
-                    //Upr1_Write(buffer[1]);
-                    buffer_out[0]='O';
-                    buffer_out[1]='6';
-                    USBUART_1_PutData(buffer_out, 2); 
-                    break;
-                  default:
-                   /* buffer_out[0]=ShiftReg_5_ReadData()& 0xFF;
-                    buffer_out[1]=(ShiftReg_5_ReadData()>>8)& 0xFF;
-                    buffer_out[2]=(ShiftReg_5_ReadData()>>16)& 0xFF;
-                    buffer_out[3]=(ShiftReg_6_ReadData()>>0)& 0xFF;
-                    buffer_out[4]=(ShiftReg_6_ReadData()>>8)& 0xFF;
-                    buffer_out[5]=(ShiftReg_6_ReadData()>>16)& 0xFF;
-                    
-                    buffer_out[5]=(ShiftReg_6_GetIntStatus());
-                    //buffer_out[6]=(ShiftReg_6_GetFIFOStatus());
-                    buffer_out[7]=(ShiftReg_6_ReadRegValue()>>16)& 0xFF;
-                    buffer_out[8]=0x0d;
-                    USBUART_1_PutData(buffer_out, 9); */
-
-                    break;
-                }
-
+               if (Server_Function(buffer ,count)<0)
+                   USBUART_1_PutData("ERROR", 5);  
+                   // USBUART_1_PutCRLF();
             }
         }
 }

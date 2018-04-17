@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Opamp_1.c
+* File Name: Opamp_Channel1_1.c
 * Version 1.90
 *
 * Description:
@@ -15,19 +15,19 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#include "Opamp_1.h"
+#include "Opamp_Channel1_1.h"
 
-uint8 Opamp_1_initVar = 0u;
+uint8 Opamp_Channel1_1_initVar = 0u;
 
 
 /*******************************************************************************   
-* Function Name: Opamp_1_Init
+* Function Name: Opamp_Channel1_1_Init
 ********************************************************************************
 *
 * Summary:
 *  Initialize component's parameters to the parameters set by user in the 
 *  customizer of the component placed onto schematic. Usually called in 
-*  Opamp_1_Start().
+*  Opamp_Channel1_1_Start().
 *
 * Parameters:
 *  void
@@ -36,14 +36,14 @@ uint8 Opamp_1_initVar = 0u;
 *  void
 *
 *******************************************************************************/
-void Opamp_1_Init(void) 
+void Opamp_Channel1_1_Init(void) 
 {
-    Opamp_1_SetPower(Opamp_1_DEFAULT_POWER);
+    Opamp_Channel1_1_SetPower(Opamp_Channel1_1_DEFAULT_POWER);
 }
 
 
 /*******************************************************************************   
-* Function Name: Opamp_1_Enable
+* Function Name: Opamp_Channel1_1_Enable
 ********************************************************************************
 *
 * Summary:
@@ -56,21 +56,21 @@ void Opamp_1_Init(void)
 *  void
 *
 *******************************************************************************/
-void Opamp_1_Enable(void) 
+void Opamp_Channel1_1_Enable(void) 
 {
     /* Enable negative charge pumps in ANIF */
-    Opamp_1_PUMP_CR1_REG  |= (Opamp_1_PUMP_CR1_CLKSEL | Opamp_1_PUMP_CR1_FORCE);
+    Opamp_Channel1_1_PUMP_CR1_REG  |= (Opamp_Channel1_1_PUMP_CR1_CLKSEL | Opamp_Channel1_1_PUMP_CR1_FORCE);
 
     /* Enable power to buffer in active mode */
-    Opamp_1_PM_ACT_CFG_REG |= Opamp_1_ACT_PWR_EN;
+    Opamp_Channel1_1_PM_ACT_CFG_REG |= Opamp_Channel1_1_ACT_PWR_EN;
 
     /* Enable power to buffer in alternative active mode */
-    Opamp_1_PM_STBY_CFG_REG |= Opamp_1_STBY_PWR_EN;
+    Opamp_Channel1_1_PM_STBY_CFG_REG |= Opamp_Channel1_1_STBY_PWR_EN;
 }
 
 
 /*******************************************************************************
-* Function Name:   Opamp_1_Start
+* Function Name:   Opamp_Channel1_1_Start
 ********************************************************************************
 *
 * Summary:
@@ -85,24 +85,24 @@ void Opamp_1_Enable(void)
 *  void
 *
 * Global variables:
-*  Opamp_1_initVar: Used to check the initial configuration, modified 
+*  Opamp_Channel1_1_initVar: Used to check the initial configuration, modified 
 *  when this function is called for the first time.
 *
 *******************************************************************************/
-void Opamp_1_Start(void) 
+void Opamp_Channel1_1_Start(void) 
 {
-    if(Opamp_1_initVar == 0u)
+    if(Opamp_Channel1_1_initVar == 0u)
     {
-        Opamp_1_initVar = 1u;
-        Opamp_1_Init();
+        Opamp_Channel1_1_initVar = 1u;
+        Opamp_Channel1_1_Init();
     }
 
-    Opamp_1_Enable();
+    Opamp_Channel1_1_Enable();
 }
 
 
 /*******************************************************************************
-* Function Name: Opamp_1_Stop
+* Function Name: Opamp_Channel1_1_Stop
 ********************************************************************************
 *
 * Summary:
@@ -115,24 +115,24 @@ void Opamp_1_Start(void)
 *  void
 *
 *******************************************************************************/
-void Opamp_1_Stop(void) 
+void Opamp_Channel1_1_Stop(void) 
 {
     /* Disable power to buffer in active mode template */
-    Opamp_1_PM_ACT_CFG_REG &= (uint8)(~Opamp_1_ACT_PWR_EN);
+    Opamp_Channel1_1_PM_ACT_CFG_REG &= (uint8)(~Opamp_Channel1_1_ACT_PWR_EN);
 
     /* Disable power to buffer in alternative active mode template */
-    Opamp_1_PM_STBY_CFG_REG &= (uint8)(~Opamp_1_STBY_PWR_EN);
+    Opamp_Channel1_1_PM_STBY_CFG_REG &= (uint8)(~Opamp_Channel1_1_STBY_PWR_EN);
     
     /* Disable negative charge pumps for ANIF only if all ABuf is turned OFF */
-    if(Opamp_1_PM_ACT_CFG_REG == 0u)
+    if(Opamp_Channel1_1_PM_ACT_CFG_REG == 0u)
     {
-        Opamp_1_PUMP_CR1_REG &= (uint8)(~(Opamp_1_PUMP_CR1_CLKSEL | Opamp_1_PUMP_CR1_FORCE));
+        Opamp_Channel1_1_PUMP_CR1_REG &= (uint8)(~(Opamp_Channel1_1_PUMP_CR1_CLKSEL | Opamp_Channel1_1_PUMP_CR1_FORCE));
     }
 }
 
 
 /*******************************************************************************
-* Function Name: Opamp_1_SetPower
+* Function Name: Opamp_Channel1_1_SetPower
 ********************************************************************************
 *
 * Summary:
@@ -146,13 +146,13 @@ void Opamp_1_Stop(void)
 *  void
 *
 **********************************************************************************/
-void Opamp_1_SetPower(uint8 power) 
+void Opamp_Channel1_1_SetPower(uint8 power) 
 {
     #if (CY_PSOC3 || CY_PSOC5LP)
-        Opamp_1_CR_REG &= (uint8)(~Opamp_1_PWR_MASK);
-        Opamp_1_CR_REG |= power & Opamp_1_PWR_MASK;      /* Set device power */
+        Opamp_Channel1_1_CR_REG &= (uint8)(~Opamp_Channel1_1_PWR_MASK);
+        Opamp_Channel1_1_CR_REG |= power & Opamp_Channel1_1_PWR_MASK;      /* Set device power */
     #else
-        CYASSERT(Opamp_1_HIGHPOWER == power);
+        CYASSERT(Opamp_Channel1_1_HIGHPOWER == power);
     #endif /* CY_PSOC3 || CY_PSOC5LP */
 }
 

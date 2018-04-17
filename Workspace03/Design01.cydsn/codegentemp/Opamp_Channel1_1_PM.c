@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Opamp_1_PM.c
+* File Name: Opamp_Channel1_1_PM.c
 * Version 1.90
 *
 * Description:
@@ -15,13 +15,13 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#include "Opamp_1.h"
+#include "Opamp_Channel1_1.h"
 
-static Opamp_1_BACKUP_STRUCT  Opamp_1_backup;
+static Opamp_Channel1_1_BACKUP_STRUCT  Opamp_Channel1_1_backup;
 
 
 /*******************************************************************************  
-* Function Name: Opamp_1_SaveConfig
+* Function Name: Opamp_Channel1_1_SaveConfig
 ********************************************************************************
 *
 * Summary:
@@ -34,14 +34,14 @@ static Opamp_1_BACKUP_STRUCT  Opamp_1_backup;
 *  void
 *
 *******************************************************************************/
-void Opamp_1_SaveConfig(void) 
+void Opamp_Channel1_1_SaveConfig(void) 
 {
     /* Nothing to save as registers are System reset on retention flops */
 }
 
 
 /*******************************************************************************  
-* Function Name: Opamp_1_RestoreConfig
+* Function Name: Opamp_Channel1_1_RestoreConfig
 ********************************************************************************
 *
 * Summary:
@@ -54,14 +54,14 @@ void Opamp_1_SaveConfig(void)
 *  void
 *
 *******************************************************************************/
-void Opamp_1_RestoreConfig(void) 
+void Opamp_Channel1_1_RestoreConfig(void) 
 {
     /* Nothing to restore */
 }
 
 
 /*******************************************************************************   
-* Function Name: Opamp_1_Sleep
+* Function Name: Opamp_Channel1_1_Sleep
 ********************************************************************************
 *
 * Summary:
@@ -75,32 +75,32 @@ void Opamp_1_RestoreConfig(void)
 *  void
 *
 * Global variables:
-*  Opamp_1_backup: The structure field 'enableState' is modified 
+*  Opamp_Channel1_1_backup: The structure field 'enableState' is modified 
 *  depending on the enable state of the block before entering to sleep mode.
 *
 *******************************************************************************/
-void Opamp_1_Sleep(void) 
+void Opamp_Channel1_1_Sleep(void) 
 {
     /* Save OpAmp enable state */
-    if((Opamp_1_PM_ACT_CFG_REG & Opamp_1_ACT_PWR_EN) != 0u)
+    if((Opamp_Channel1_1_PM_ACT_CFG_REG & Opamp_Channel1_1_ACT_PWR_EN) != 0u)
     {
         /* Component is enabled */
-        Opamp_1_backup.enableState = 1u;
+        Opamp_Channel1_1_backup.enableState = 1u;
          /* Stops the component */
-         Opamp_1_Stop();
+         Opamp_Channel1_1_Stop();
     }
     else
     {
         /* Component is disabled */
-        Opamp_1_backup.enableState = 0u;
+        Opamp_Channel1_1_backup.enableState = 0u;
     }
     /* Saves the configuration */
-    Opamp_1_SaveConfig();
+    Opamp_Channel1_1_SaveConfig();
 }
 
 
 /*******************************************************************************  
-* Function Name: Opamp_1_Wakeup
+* Function Name: Opamp_Channel1_1_Wakeup
 ********************************************************************************
 *
 * Summary:
@@ -114,19 +114,19 @@ void Opamp_1_Sleep(void)
 *  void
 *
 * Global variables:
-*  Opamp_1_backup: The structure field 'enableState' is used to 
+*  Opamp_Channel1_1_backup: The structure field 'enableState' is used to 
 *  restore the enable state of block after wakeup from sleep mode.
 *
 *******************************************************************************/
-void Opamp_1_Wakeup(void) 
+void Opamp_Channel1_1_Wakeup(void) 
 {
     /* Restore the user configuration */
-    Opamp_1_RestoreConfig();
+    Opamp_Channel1_1_RestoreConfig();
 
     /* Enables the component operation */
-    if(Opamp_1_backup.enableState == 1u)
+    if(Opamp_Channel1_1_backup.enableState == 1u)
     {
-        Opamp_1_Enable();
+        Opamp_Channel1_1_Enable();
     } /* Do nothing if component was disable before */
 }
 

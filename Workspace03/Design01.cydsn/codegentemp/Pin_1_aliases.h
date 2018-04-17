@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Led1.h  
+* File Name: Pin_1.h  
 * Version 2.20
 *
 * Description:
@@ -15,8 +15,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_Led1_ALIASES_H) /* Pins Led1_ALIASES_H */
-#define CY_PINS_Led1_ALIASES_H
+#if !defined(CY_PINS_Pin_1_ALIASES_H) /* Pins Pin_1_ALIASES_H */
+#define CY_PINS_Pin_1_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,12 +25,12 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define Led1_0			(Led1__0__PC)
-#define Led1_0_INTR	((uint16)((uint16)0x0001u << Led1__0__SHIFT))
+#define Pin_1_0			(Pin_1__0__PC)
+#define Pin_1_0_INTR	((uint16)((uint16)0x0001u << Pin_1__0__SHIFT))
 
-#define Led1_INTR_ALL	 ((uint16)(Led1_0_INTR))
+#define Pin_1_INTR_ALL	 ((uint16)(Pin_1_0_INTR))
 
-#endif /* End Pins Led1_ALIASES_H */
+#endif /* End Pins Pin_1_ALIASES_H */
 
 
 /* [] END OF FILE */

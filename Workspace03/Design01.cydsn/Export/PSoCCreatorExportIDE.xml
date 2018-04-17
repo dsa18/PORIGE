@@ -125,29 +125,12 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_Dp.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ButtonSW1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ButtonSW1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ButtonSW1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Led1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Led1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Led1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar0_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar0.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar0.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref0_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref0.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref0.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sar1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Ref1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cmod_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cmod.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cmod.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Clock_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Pin_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USB_isr.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USB_isr.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\USBUART_1_ep3_dma.c</File>
@@ -197,6 +180,9 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Channel1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Channel1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Channel1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_Channel1_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_Channel1_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_Channel1_1_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel1_INT.c</File>
@@ -210,58 +196,12 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel1_IRQ.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel1_theACLK.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel1_theACLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sen_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sen.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sen.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Channel2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Channel2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\PGA_Channel2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_Channel2_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_Channel2_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Opamp_Channel2_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SWReg_Channel2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\SWReg_Channel2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sel_Gen_Channel2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sel_Gen_Channel2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Sel_Gen_Channel2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2_theACLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\ADC_Channel2_theACLK.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\EN_Channel1.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\EN_Channel1.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\EN_Channel1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\EN_Channel2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\EN_Channel2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\EN_Channel2_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Channel1_R_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Channel1_R.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Channel1_R.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Channel2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Channel2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Channel2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_4_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_4.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_4.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_3_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_3.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_3.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Cap2_2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_Ch2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_Ch2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC5\Vout_Ch2.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="G:\DSA\PORIGE\Workspace03\Design01.cydsn\Export\ARM_GCC_Generic">

@@ -73,7 +73,7 @@ void Opamp_Channel1_Enable(void)              ;
 /**************************************
 *           Parameter Defaults        
 **************************************/
-#define Opamp_Channel1_DEFAULT_POWER          (3u)
+#define Opamp_Channel1_DEFAULT_POWER          (0u)
 #define Opamp_Channel1_DEFAULT_MODE           (1u)
 
 

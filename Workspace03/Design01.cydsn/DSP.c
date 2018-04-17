@@ -13,7 +13,42 @@
 /* [] END OF FILE */
 #include "DSP.h"
 
+
+// Данные для генератора частоты
+float64 FD=0;
+//uint64 Const_F=((2^47)/1000000);//константа для определения частоты
+float64 Const_F=140737488;//((2^47)/1000000);//константа для определения частоты
+
+int8 Server_Function(const char* buf, uint16 Len)
+{
+     if (strncmp(&buf[0],"SET_F=",6)==0 )     // строки равны
+       {
+                  R_D_F(&buf[6],7);
+  	    return 1;
+        // return 1;
+       }
+    return -1;
+}    
+void R_D_F (const char* buf, uint8 ofset)
+{
     
+    Control_Reg_1_Write(0x0)   ;
+   float64 f= atof(&buf[0]);
+    FD=f*Const_F;
+    ShiftReg_5_WriteData((((uint64)FD)>>24) &0xFFFFFF);
+    ShiftReg_6_WriteData(((uint64)FD) &0xFFFFFF);
+    buffer_out[0]=(uint64)FD&0xff;
+    buffer_out[1]=((uint64)FD>>8)&0xff;
+    buffer_out[2]=((uint64)FD>>16)&0xff;
+    buffer_out[3]=((uint64)FD>>24)&0xff;
+    buffer_out[4]=((uint64)FD>>32)&0xff;
+    buffer_out[5]=((uint64)FD>>40)&0xff;
+    USBUART_1_PutData(buffer_out, 6); 
+    Control_Reg_1_Write(0xFF)   ;
+
+}
+    
+
     //n текущее значение АЦП
 //k номер канала (фазы)
       static  int sumn = 0;

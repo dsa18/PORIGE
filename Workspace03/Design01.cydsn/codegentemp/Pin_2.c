@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Sar0.c  
+* File Name: Pin_2.c  
 * Version 2.20
 *
 * Description:
@@ -15,15 +15,15 @@
 *******************************************************************************/
 
 #include "cytypes.h"
-#include "Sar0.h"
+#include "Pin_2.h"
 
 /* APIs are not generated for P15[7:6] on PSoC 5 */
 #if !(CY_PSOC5A &&\
-	 Sar0__PORT == 15 && ((Sar0__MASK & 0xC0) != 0))
+	 Pin_2__PORT == 15 && ((Pin_2__MASK & 0xC0) != 0))
 
 
 /*******************************************************************************
-* Function Name: Sar0_Write
+* Function Name: Pin_2_Write
 ****************************************************************************//**
 *
 * \brief Writes the value to the physical port (data output register), masking
@@ -52,17 +52,17 @@
 *  this function.
 *
 * \funcusage
-*  \snippet Sar0_SUT.c usage_Sar0_Write
+*  \snippet Pin_2_SUT.c usage_Pin_2_Write
 *******************************************************************************/
-void Sar0_Write(uint8 value)
+void Pin_2_Write(uint8 value)
 {
-    uint8 staticBits = (Sar0_DR & (uint8)(~Sar0_MASK));
-    Sar0_DR = staticBits | ((uint8)(value << Sar0_SHIFT) & Sar0_MASK);
+    uint8 staticBits = (Pin_2_DR & (uint8)(~Pin_2_MASK));
+    Pin_2_DR = staticBits | ((uint8)(value << Pin_2_SHIFT) & Pin_2_MASK);
 }
 
 
 /*******************************************************************************
-* Function Name: Sar0_SetDriveMode
+* Function Name: Pin_2_SetDriveMode
 ****************************************************************************//**
 *
 * \brief Sets the drive mode for each of the Pins component's pins.
@@ -85,16 +85,16 @@ void Sar0_Write(uint8 value)
 *  APIs (primary method) or disable interrupts around this function.
 *
 * \funcusage
-*  \snippet Sar0_SUT.c usage_Sar0_SetDriveMode
+*  \snippet Pin_2_SUT.c usage_Pin_2_SetDriveMode
 *******************************************************************************/
-void Sar0_SetDriveMode(uint8 mode)
+void Pin_2_SetDriveMode(uint8 mode)
 {
-	CyPins_SetPinDriveMode(Sar0_0, mode);
+	CyPins_SetPinDriveMode(Pin_2_0, mode);
 }
 
 
 /*******************************************************************************
-* Function Name: Sar0_Read
+* Function Name: Pin_2_Read
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port (pin status register) and masks 
@@ -108,16 +108,16 @@ void Sar0_SetDriveMode(uint8 mode)
 *  The current value for the pins in the component as a right justified number.
 *
 * \funcusage
-*  \snippet Sar0_SUT.c usage_Sar0_Read  
+*  \snippet Pin_2_SUT.c usage_Pin_2_Read  
 *******************************************************************************/
-uint8 Sar0_Read(void)
+uint8 Pin_2_Read(void)
 {
-    return (Sar0_PS & Sar0_MASK) >> Sar0_SHIFT;
+    return (Pin_2_PS & Pin_2_MASK) >> Pin_2_SHIFT;
 }
 
 
 /*******************************************************************************
-* Function Name: Sar0_ReadDataReg
+* Function Name: Pin_2_ReadDataReg
 ****************************************************************************//**
 *
 * \brief Reads the associated physical port's data output register and masks 
@@ -126,8 +126,8 @@ uint8 Sar0_Read(void)
 *
 * The data output register controls the signal applied to the physical pin in 
 * conjunction with the drive mode parameter. This is not the same as the 
-* preferred Sar0_Read() API because the 
-* Sar0_ReadDataReg() reads the data register instead of the status 
+* preferred Pin_2_Read() API because the 
+* Pin_2_ReadDataReg() reads the data register instead of the status 
 * register. For output pins this is a useful function to determine the value 
 * just written to the pin.
 *
@@ -136,19 +136,19 @@ uint8 Sar0_Read(void)
 *  justified number for the component instance.
 *
 * \funcusage
-*  \snippet Sar0_SUT.c usage_Sar0_ReadDataReg 
+*  \snippet Pin_2_SUT.c usage_Pin_2_ReadDataReg 
 *******************************************************************************/
-uint8 Sar0_ReadDataReg(void)
+uint8 Pin_2_ReadDataReg(void)
 {
-    return (Sar0_DR & Sar0_MASK) >> Sar0_SHIFT;
+    return (Pin_2_DR & Pin_2_MASK) >> Pin_2_SHIFT;
 }
 
 
 /* If interrupt is connected for this Pins component */ 
-#if defined(Sar0_INTSTAT) 
+#if defined(Pin_2_INTSTAT) 
 
     /*******************************************************************************
-    * Function Name: Sar0_SetInterruptMode
+    * Function Name: Pin_2_SetInterruptMode
     ****************************************************************************//**
     *
     * \brief Configures the interrupt mode for each of the Pins component's
@@ -161,12 +161,12 @@ uint8 Sar0_ReadDataReg(void)
     * \param position
     *  The pin position as listed in the Pins component. You may OR these to be 
     *  able to configure the interrupt mode of multiple pins within a Pins 
-    *  component. Or you may use Sar0_INTR_ALL to configure the
+    *  component. Or you may use Pin_2_INTR_ALL to configure the
     *  interrupt mode of all the pins in the Pins component.       
-    *  - Sar0_0_INTR       (First pin in the list)
-    *  - Sar0_1_INTR       (Second pin in the list)
+    *  - Pin_2_0_INTR       (First pin in the list)
+    *  - Pin_2_1_INTR       (Second pin in the list)
     *  - ...
-    *  - Sar0_INTR_ALL     (All pins in Pins component)
+    *  - Pin_2_INTR_ALL     (All pins in Pins component)
     *
     * \param mode
     *  Interrupt mode for the selected pins. Valid options are documented in
@@ -182,19 +182,19 @@ uint8 Sar0_ReadDataReg(void)
     *  port.
     *
     * \funcusage
-    *  \snippet Sar0_SUT.c usage_Sar0_SetInterruptMode
+    *  \snippet Pin_2_SUT.c usage_Pin_2_SetInterruptMode
     *******************************************************************************/
-    void Sar0_SetInterruptMode(uint16 position, uint16 mode)
+    void Pin_2_SetInterruptMode(uint16 position, uint16 mode)
     {
-		if((position & Sar0_0_INTR) != 0u) 
+		if((position & Pin_2_0_INTR) != 0u) 
 		{ 
-			 Sar0_0_INTTYPE_REG = (uint8)mode; 
+			 Pin_2_0_INTTYPE_REG = (uint8)mode; 
 		}
     }
     
     
     /*******************************************************************************
-    * Function Name: Sar0_ClearInterrupt
+    * Function Name: Pin_2_ClearInterrupt
     ****************************************************************************//**
     *
     * \brief Clears any active interrupts attached with the component and returns 
@@ -211,11 +211,11 @@ uint8 Sar0_ReadDataReg(void)
     *  those associated with the Pins component.
     *
     * \funcusage
-    *  \snippet Sar0_SUT.c usage_Sar0_ClearInterrupt
+    *  \snippet Pin_2_SUT.c usage_Pin_2_ClearInterrupt
     *******************************************************************************/
-    uint8 Sar0_ClearInterrupt(void)
+    uint8 Pin_2_ClearInterrupt(void)
     {
-        return (Sar0_INTSTAT & Sar0_MASK) >> Sar0_SHIFT;
+        return (Pin_2_INTSTAT & Pin_2_MASK) >> Pin_2_SHIFT;
     }
 
 #endif /* If Interrupts Are Enabled for this Pins component */ 
