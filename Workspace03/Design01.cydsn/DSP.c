@@ -21,12 +21,35 @@ float64 Const_F=140737488;//((2^47)/1000000);//константа для опр�
 
 int8 Server_Function(const char* buf, uint16 Len)
 {
-     if (strncmp(&buf[0],"SET_F=",6)==0 )     // строки равны
+     if (strncmp(&buf[0],"SET_F=",6)==0 )     //устанавливает частату генератора
        {
                   R_D_F(&buf[6],7);
   	    return 1;
-        // return 1;
        }
+         if (strncmp(&buf[0],"SET_FITER1=",11)==0 )     // включает отключает фильтр на 1 канале 0-вкл 1-выкл
+       {
+                 // EN_Channel1_Write((uint8)buf[11]);
+  	    return 1;
+       }
+         if (strncmp(&buf[0],"SET_FITER2=",11)==0 )     // включает отключает фильтр на 2 канале
+       {
+                  //EN_Channel1_Write(buf[11]);
+  	    return 1;
+       }
+             if (strncmp(&buf[0],"SET_GAIN1=",11)==0 )     // устанавливает коэфициент уселения 1 канала 0 ...8
+       {
+                  PGA_Channel1_SetGain((uint8)buf[11]);
+        
+  	    return 1;
+       }
+             if (strncmp(&buf[0],"SET_GAIN2=",11)==0 )     // устанавливает коэфициент уселения 2 канала 0 ...8
+       {
+                 // PGA_Channel1_SetGain(buf[11]);
+        
+  	    return 1;
+       }
+    
+    
     return -1;
 }    
 void R_D_F (const char* buf, uint8 ofset)
@@ -37,13 +60,13 @@ void R_D_F (const char* buf, uint8 ofset)
     FD=f*Const_F;
     ShiftReg_5_WriteData((((uint64)FD)>>24) &0xFFFFFF);
     ShiftReg_6_WriteData(((uint64)FD) &0xFFFFFF);
-    buffer_out[0]=(uint64)FD&0xff;
+   /* buffer_out[0]=(uint64)FD&0xff;
     buffer_out[1]=((uint64)FD>>8)&0xff;
     buffer_out[2]=((uint64)FD>>16)&0xff;
     buffer_out[3]=((uint64)FD>>24)&0xff;
     buffer_out[4]=((uint64)FD>>32)&0xff;
     buffer_out[5]=((uint64)FD>>40)&0xff;
-    USBUART_1_PutData(buffer_out, 6); 
+    USBUART_1_PutData(buffer_out, 6); */
     Control_Reg_1_Write(0xFF)   ;
 
 }

@@ -403,17 +403,6 @@ C:\Users\user\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\USBFS_v3_20\Cust
 C:\Users\user\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\USBFS_v3_20\Custom\cydetailscontainerid.resx
 C:\Users\user\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\USBFS_v3_20\Custom\cymscdescriptorpage.resx
 C:\Users\user\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\USBFS_v3_20\PSoC5\USBFS_v3_20.cysch
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\cy_dma_v1_70.cyprimitive
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\cy_dma_v1_70.cysym
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\cy_dma_v1_70.pdf
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\cy_dma_v1_70.cystate
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\version.cypatch
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\API\dma.c
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\API\dma.h
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\Custom\cycustomizer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\Custom\cydmacontrol.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\Custom\cydmacontrol.designer.cs
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_dma_v1_70\Custom\cydmacontrol.resx
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc3_usb_v1_0\cy_psoc3_usb_v1_0.cyprimitive
 C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc3_usb_v1_0\cy_psoc3_usb_v1_0.cysym
 G:\DSA\PORIGE\Workspace03\Design01.cydsn\Design01.cydwr

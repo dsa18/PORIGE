@@ -69,7 +69,8 @@ ShiftReg_6_WriteData(0x9ba5e3);
        
     }
 }
-
+static int8 Mouse_Data[3] = {0, 0, 0}; /* [0] = Buttons, [1] = X-Axis, [2] = Y-Axis */
+static uint16 Delay = 0;
 void init_usb_my()
 {
     USBUART_1_Start(0, USBUART_1_3V_OPERATION);//!!NOTE!! Make sure this matches your board voltage!
@@ -77,7 +78,8 @@ void init_usb_my()
     
     while(!USBUART_1_GetConfiguration());
     USBUART_1_CDC_Init();
-    
+   USBUART_1_LoadInEP(1, (uint8 *)Mouse_Data, 3); 
+
 }
 
 //CY_ISR (Tim_ISR1)
@@ -93,7 +95,7 @@ CY_ISR (USB_NeWk)
 {
    
     
-    if(USBUART_1_DataIsReady() != 0u)               
+  if(USBUART_1_DataIsReady() != 0u)               
         {   
             count = USBUART_1_GetAll(buffer);           
             if(count >= 0)
