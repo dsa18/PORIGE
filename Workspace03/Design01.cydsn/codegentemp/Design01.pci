@@ -1,5 +1,5 @@
 # Design01
-# 2018-04-19 11:54:11Z
+# 2018-04-23 11:14:43Z
 
 # IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 0
@@ -7,21 +7,55 @@ dont_use_io iocell 1 0
 dont_use_io iocell 1 1
 # IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
 dont_use_io iocell 1 3
-set_io "Channel1_R(0)" iocell 1 7
-set_io "Vout_R1(0)" iocell 3 7
+set_io "Led1(0)" iocell 2 1
+set_io "i_2(0)" iocell 0 7
+set_io "Cmod(0)" iocell 15 4
+set_io "Sar0(0)" iocell 0 4
+set_io "Vout_R1(0)" iocell 0 0
+set_io "Sen(0)" iocell 3 4
 set_io "Cap1_4(0)" iocell 2 6
 set_io "Cap1_3(0)" iocell 2 5
 set_io "Cap1_2(0)" iocell 2 4
 set_io "Cap1_1(0)" iocell 2 3
-set_io "Channel_1(0)" iocell 0 1
-set_io "Pin_1(0)" iocell 0 7
-set_io "Pin_3(0)" iocell 2 2
-set_io "Pin_2(0)" iocell 0 0
+set_io "Channel1(0)" iocell 3 0
 set_io "\USBUART_1:Dm(0)\" iocell 15 7
 set_io "\USBUART_1:Dp(0)\" iocell 15 6
-set_io "Dedicated_Output" iocell 3 6
-set_location "\ADC_Channel1:ADC_SAR\" sarcell -1 -1 0
-set_location "\PGA_Channel1:SC\" sccell -1 -1 0
-set_location "\Opamp_Channel1:ABuf\" abufcell -1 -1 1
-set_location "\Opamp_Channel1_1:ABuf\" abufcell -1 -1 3
+set_io "Vout_Ch3(0)" iocell 3 6
+set_io "Channel3(0)" iocell 3 3
+set_io "Cap2_1(0)" iocell 1 2
+set_io "Cap2_2(0)" iocell 1 4
+set_io "Cap2_3(0)" iocell 1 5
+set_io "Cap2_4(0)" iocell 1 6
+set_io "Channel2(0)" iocell 3 1
+set_io "Cap1_5(0)" iocell 15 0
+set_io "Cap1_6(0)" iocell 15 1
+set_io "Cap1_7(0)" iocell 15 2
+set_io "Cap1_8(0)" iocell 15 3
+set_io "Vout_R1_1(0)" iocell 0 1
+set_io "v_1(0)" iocell 0 6
+set_io "i_1(0)" iocell 0 5
+set_io "v_2(0)" iocell 2 0
+set_io "Sar1(0)" iocell 0 2
+set_io "Ref1(0)" iocell 3 2
+set_io "Ref0(0)" iocell 0 3
+set_io "Out_LL1(0)" iocell 12 4
+set_io "Out_LL2(0)" iocell 12 5
+set_io "Men_IN(0)" iocell 12 3
+set_io "L1(0)" iocell 12 0
+set_io "L2(0)" iocell 12 1
+set_io "L3(0)" iocell 12 2
+set_io "Power(0)" iocell 12 6
+set_io "PowerOFF(0)" iocell 12 7
+set_io "GEN_OUT_P(0)" iocell 3 5
+set_io "RST_OUT_P(0)" iocell 3 7
+set_io "Q_GEN(0)" iocell 2 2
+set_location "\PowerMonitor_1:ADC:DSM4\" dsmodcell -1 -1 0
+set_location "\PowerMonitor_1:PGA:SC\" sccell -1 -1 0
+set_location "\PGA_1:SC\" sccell -1 -1 2
+set_location "\Opamp_Channel1_1:ABuf\" abufcell -1 -1 2
 set_location "\USBUART_1:USB\" usbcell -1 -1 0
+set_location "\Op_CN3:ABuf\" abufcell -1 -1 1
+set_location "\PGA_CH3:SC\" sccell -1 -1 1
+set_location "\ADC_SAR_1:ADC_SAR\" sarcell -1 -1 1
+set_location "\Opamp_Channel2:ABuf\" abufcell -1 -1 0
+set_location "\PGA_HC2:SC\" sccell -1 -1 3

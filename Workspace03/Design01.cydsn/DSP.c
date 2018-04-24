@@ -38,7 +38,7 @@ int8 Server_Function(const char* buf, uint16 Len)
        }
              if (strncmp(&buf[0],"SET_GAIN1=",11)==0 )     // устанавливает коэфициент уселения 1 канала 0 ...8
        {
-                  PGA_Channel1_SetGain((uint8)buf[11]);
+                 // PGA_Channel1_SetGain((uint8)buf[11]);
         
   	    return 1;
        }

@@ -48,14 +48,14 @@ ShiftReg_6_Start();
 ShiftReg_7_Start();
 ShiftReg_8_Start();
 
-
+/*
 Opamp_Channel1_Init();
 Opamp_Channel1_Start();
 PGA_Channel1_Init();
 PGA_Channel1_Start();
 Opamp_Channel1_1_Init();
 Opamp_Channel1_1_Start();
-
+*/
 
  USB_isr_Start();
  USB_isr_SetVector (USB_NeWk) ;

@@ -36,30 +36,37 @@
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Control_Reg_1.h" value="HEADER;;;;;Control_Reg_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Control_Reg_1.c" value="SOURCE_C;CortexM3;;;;Control_Reg_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Control_Reg_1_PM.c" value="SOURCE_C;CortexM3;;;;Control_Reg_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel1_R_aliases.h" value="HEADER;;;;;Channel1_R" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel1_R.c" value="SOURCE_C;CortexM3;;;;Channel1_R" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel1_R.h" value="HEADER;;;;;Channel1_R" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel1.h" value="HEADER;;;;;EN_Channel1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel1.c" value="SOURCE_C;CortexM3;;;;EN_Channel1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel1_PM.c" value="SOURCE_C;CortexM3;;;;EN_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sel_Gen_Channel1.h" value="HEADER;;;;;Sel_Gen_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sel_Gen_Channel1.c" value="SOURCE_C;CortexM3;;;;Sel_Gen_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sel_Gen_Channel1_PM.c" value="SOURCE_C;CortexM3;;;;Sel_Gen_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\SWReg_Channel1.c" value="SOURCE_C;CortexM3;;;;SWReg_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\SWReg_Channel1.h" value="HEADER;;;;;SWReg_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1.c" value="SOURCE_C;CortexM3;;;;ADC_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1.h" value="HEADER;;;;;ADC_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1_INT.c" value="SOURCE_C;CortexM3;;;;ADC_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1_PM.c" value="SOURCE_C;CortexM3;;;;ADC_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_Channel1.c" value="SOURCE_C;CortexM3;;;;PGA_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_Channel1.h" value="HEADER;;;;;PGA_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_Channel1_PM.c" value="SOURCE_C;CortexM3;;;;PGA_Channel1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Led1_aliases.h" value="HEADER;;;;;Led1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Led1.c" value="SOURCE_C;CortexM3;;;;Led1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Led1.h" value="HEADER;;;;;Led1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\i_2_aliases.h" value="HEADER;;;;;i_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\i_2.c" value="SOURCE_C;CortexM3;;;;i_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\i_2.h" value="HEADER;;;;;i_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cmod_aliases.h" value="HEADER;;;;;Cmod" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cmod.c" value="SOURCE_C;CortexM3;;;;Cmod" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cmod.h" value="HEADER;;;;;Cmod" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ButtonSW1_aliases.h" value="HEADER;;;;;ButtonSW1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ButtonSW1.c" value="SOURCE_C;CortexM3;;;;ButtonSW1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ButtonSW1.h" value="HEADER;;;;;ButtonSW1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sar0_aliases.h" value="HEADER;;;;;Sar0" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sar0.c" value="SOURCE_C;CortexM3;;;;Sar0" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sar0.h" value="HEADER;;;;;Sar0" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1.h" value="HEADER;;;;;PowerMonitor_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_INT.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_Calibration.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_1.c" value="SOURCE_C;CortexM3;;;;PGA_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_1.h" value="HEADER;;;;;PGA_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_1_PM.c" value="SOURCE_C;CortexM3;;;;PGA_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_R1_aliases.h" value="HEADER;;;;;Vout_R1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_R1.c" value="SOURCE_C;CortexM3;;;;Vout_R1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_R1.h" value="HEADER;;;;;Vout_R1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel1.c" value="SOURCE_C;CortexM3;;;;Opamp_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel1.h" value="HEADER;;;;;Opamp_Channel1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel1_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_Channel1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sen_aliases.h" value="HEADER;;;;;Sen" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sen.c" value="SOURCE_C;CortexM3;;;;Sen" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sen.h" value="HEADER;;;;;Sen" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_4_aliases.h" value="HEADER;;;;;Cap1_4" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_4.c" value="SOURCE_C;CortexM3;;;;Cap1_4" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_4.h" value="HEADER;;;;;Cap1_4" />
@@ -72,23 +79,14 @@
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_1_aliases.h" value="HEADER;;;;;Cap1_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_1.c" value="SOURCE_C;CortexM3;;;;Cap1_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_1.h" value="HEADER;;;;;Cap1_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel_1_aliases.h" value="HEADER;;;;;Channel_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel_1.c" value="SOURCE_C;CortexM3;;;;Channel_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel_1.h" value="HEADER;;;;;Channel_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel1_aliases.h" value="HEADER;;;;;Channel1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel1.c" value="SOURCE_C;CortexM3;;;;Channel1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel1.h" value="HEADER;;;;;Channel1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_1.c" value="SOURCE_C;CortexM3;;;;Clock_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_1.h" value="HEADER;;;;;Clock_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_1_aliases.h" value="HEADER;;;;;Pin_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_1.c" value="SOURCE_C;CortexM3;;;;Pin_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_1.h" value="HEADER;;;;;Pin_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_3_aliases.h" value="HEADER;;;;;Pin_3" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_3.c" value="SOURCE_C;CortexM3;;;;Pin_3" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_3.h" value="HEADER;;;;;Pin_3" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel1_1.c" value="SOURCE_C;CortexM3;;;;Opamp_Channel1_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel1_1.h" value="HEADER;;;;;Opamp_Channel1_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel1_1_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_Channel1_1" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_2_aliases.h" value="HEADER;;;;;Pin_2" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_2.c" value="SOURCE_C;CortexM3;;;;Pin_2" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Pin_2.h" value="HEADER;;;;;Pin_2" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1.c" value="SOURCE_C;CortexM3;;;;USBUART_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1.h" value="HEADER;;;;;USBUART_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_audio.c" value="SOURCE_C;CortexM3;;;;USBUART_1" />
@@ -114,16 +112,167 @@
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_msc.h" value="HEADER;;;;;USBUART_1" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USB_isr.c" value="SOURCE_C;CortexM3;;;;USB_isr" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USB_isr.h" value="HEADER;;;;;USB_isr" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1_IRQ.c" value="SOURCE_C;CortexM3;;;;ADC_Channel1_IRQ" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1_IRQ.h" value="HEADER;;;;;ADC_Channel1_IRQ" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1_theACLK.c" value="SOURCE_C;CortexM3;;;;ADC_Channel1_theACLK" />
-  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_Channel1_theACLK.h" value="HEADER;;;;;ADC_Channel1_theACLK" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Op_CN3.c" value="SOURCE_C;CortexM3;;;;Op_CN3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Op_CN3.h" value="HEADER;;;;;Op_CN3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Op_CN3_PM.c" value="SOURCE_C;CortexM3;;;;Op_CN3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_Ch3_aliases.h" value="HEADER;;;;;Vout_Ch3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_Ch3.c" value="SOURCE_C;CortexM3;;;;Vout_Ch3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_Ch3.h" value="HEADER;;;;;Vout_Ch3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel3_aliases.h" value="HEADER;;;;;Channel3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel3.c" value="SOURCE_C;CortexM3;;;;Channel3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel3.h" value="HEADER;;;;;Channel3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_1_aliases.h" value="HEADER;;;;;Cap2_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_1.c" value="SOURCE_C;CortexM3;;;;Cap2_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_1.h" value="HEADER;;;;;Cap2_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_CH3.c" value="SOURCE_C;CortexM3;;;;PGA_CH3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_CH3.h" value="HEADER;;;;;PGA_CH3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_CH3_PM.c" value="SOURCE_C;CortexM3;;;;PGA_CH3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\AMux_1.c" value="SOURCE_C;CortexM3;;;;AMux_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\AMux_1.h" value="HEADER;;;;;AMux_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1.c" value="SOURCE_C;CortexM3;;;;ADC_SAR_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1.h" value="HEADER;;;;;ADC_SAR_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1_INT.c" value="SOURCE_C;CortexM3;;;;ADC_SAR_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1_PM.c" value="SOURCE_C;CortexM3;;;;ADC_SAR_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sel_Gen.h" value="HEADER;;;;;Sel_Gen" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sel_Gen.c" value="SOURCE_C;CortexM3;;;;Sel_Gen" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sel_Gen_PM.c" value="SOURCE_C;CortexM3;;;;Sel_Gen" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\SWReg.c" value="SOURCE_C;CortexM3;;;;SWReg" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\SWReg.h" value="HEADER;;;;;SWReg" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel3.h" value="HEADER;;;;;EN_Channel3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel3.c" value="SOURCE_C;CortexM3;;;;EN_Channel3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel3_PM.c" value="SOURCE_C;CortexM3;;;;EN_Channel3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_2.c" value="SOURCE_C;CortexM3;;;;Clock_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_2_aliases.h" value="HEADER;;;;;Cap2_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_2.c" value="SOURCE_C;CortexM3;;;;Cap2_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_2.h" value="HEADER;;;;;Cap2_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_3_aliases.h" value="HEADER;;;;;Cap2_3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_3.c" value="SOURCE_C;CortexM3;;;;Cap2_3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_3.h" value="HEADER;;;;;Cap2_3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_4_aliases.h" value="HEADER;;;;;Cap2_4" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_4.c" value="SOURCE_C;CortexM3;;;;Cap2_4" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap2_4.h" value="HEADER;;;;;Cap2_4" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel2_aliases.h" value="HEADER;;;;;Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel2.c" value="SOURCE_C;CortexM3;;;;Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Channel2.h" value="HEADER;;;;;Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_5_aliases.h" value="HEADER;;;;;Cap1_5" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_5.c" value="SOURCE_C;CortexM3;;;;Cap1_5" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_5.h" value="HEADER;;;;;Cap1_5" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_6_aliases.h" value="HEADER;;;;;Cap1_6" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_6.c" value="SOURCE_C;CortexM3;;;;Cap1_6" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_6.h" value="HEADER;;;;;Cap1_6" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_7_aliases.h" value="HEADER;;;;;Cap1_7" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_7.c" value="SOURCE_C;CortexM3;;;;Cap1_7" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_7.h" value="HEADER;;;;;Cap1_7" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_8_aliases.h" value="HEADER;;;;;Cap1_8" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_8.c" value="SOURCE_C;CortexM3;;;;Cap1_8" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cap1_8.h" value="HEADER;;;;;Cap1_8" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_R1_1_aliases.h" value="HEADER;;;;;Vout_R1_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_R1_1.c" value="SOURCE_C;CortexM3;;;;Vout_R1_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Vout_R1_1.h" value="HEADER;;;;;Vout_R1_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\v_1_aliases.h" value="HEADER;;;;;v_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\v_1.c" value="SOURCE_C;CortexM3;;;;v_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\v_1.h" value="HEADER;;;;;v_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\i_1_aliases.h" value="HEADER;;;;;i_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\i_1.c" value="SOURCE_C;CortexM3;;;;i_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\i_1.h" value="HEADER;;;;;i_1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\pmon_clock.c" value="SOURCE_C;CortexM3;;;;pmon_clock" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\pmon_clock.h" value="HEADER;;;;;pmon_clock" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\v_2_aliases.h" value="HEADER;;;;;v_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\v_2.c" value="SOURCE_C;CortexM3;;;;v_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\v_2.h" value="HEADER;;;;;v_2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel2.h" value="HEADER;;;;;EN_Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel2.c" value="SOURCE_C;CortexM3;;;;EN_Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\EN_Channel2_PM.c" value="SOURCE_C;CortexM3;;;;EN_Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_3.c" value="SOURCE_C;CortexM3;;;;Clock_3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_3.h" value="HEADER;;;;;Clock_3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel2.c" value="SOURCE_C;CortexM3;;;;Opamp_Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel2.h" value="HEADER;;;;;Opamp_Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Opamp_Channel2_PM.c" value="SOURCE_C;CortexM3;;;;Opamp_Channel2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sar1_aliases.h" value="HEADER;;;;;Sar1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sar1.c" value="SOURCE_C;CortexM3;;;;Sar1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Sar1.h" value="HEADER;;;;;Sar1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Ref1_aliases.h" value="HEADER;;;;;Ref1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Ref1.c" value="SOURCE_C;CortexM3;;;;Ref1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Ref1.h" value="HEADER;;;;;Ref1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_HC2.c" value="SOURCE_C;CortexM3;;;;PGA_HC2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_HC2.h" value="HEADER;;;;;PGA_HC2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PGA_HC2_PM.c" value="SOURCE_C;CortexM3;;;;PGA_HC2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Ref0_aliases.h" value="HEADER;;;;;Ref0" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Ref0.c" value="SOURCE_C;CortexM3;;;;Ref0" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Ref0.h" value="HEADER;;;;;Ref0" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Keybord_IN.c" value="SOURCE_C;CortexM3;;;;Keybord_IN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Keybord_IN.h" value="HEADER;;;;;Keybord_IN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Out_LL1_aliases.h" value="HEADER;;;;;Out_LL1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Out_LL1.c" value="SOURCE_C;CortexM3;;;;Out_LL1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Out_LL1.h" value="HEADER;;;;;Out_LL1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Out_LL2_aliases.h" value="HEADER;;;;;Out_LL2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Out_LL2.c" value="SOURCE_C;CortexM3;;;;Out_LL2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Out_LL2.h" value="HEADER;;;;;Out_LL2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Keybord_OUT.h" value="HEADER;;;;;Keybord_OUT" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Keybord_OUT.c" value="SOURCE_C;CortexM3;;;;Keybord_OUT" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Keybord_OUT_PM.c" value="SOURCE_C;CortexM3;;;;Keybord_OUT" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Men_IN_aliases.h" value="HEADER;;;;;Men_IN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Men_IN.c" value="SOURCE_C;CortexM3;;;;Men_IN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Men_IN.h" value="HEADER;;;;;Men_IN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L1_aliases.h" value="HEADER;;;;;L1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L1.c" value="SOURCE_C;CortexM3;;;;L1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L1.h" value="HEADER;;;;;L1" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L2_aliases.h" value="HEADER;;;;;L2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L2.c" value="SOURCE_C;CortexM3;;;;L2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L2.h" value="HEADER;;;;;L2" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L3_aliases.h" value="HEADER;;;;;L3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L3.c" value="SOURCE_C;CortexM3;;;;L3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\L3.h" value="HEADER;;;;;L3" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power_aliases.h" value="HEADER;;;;;Power" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power.c" value="SOURCE_C;CortexM3;;;;Power" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power.h" value="HEADER;;;;;Power" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power_In.c" value="SOURCE_C;CortexM3;;;;Power_In" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power_In.h" value="HEADER;;;;;Power_In" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Menu.c" value="SOURCE_C;CortexM3;;;;Menu" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Menu.h" value="HEADER;;;;;Menu" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_4.c" value="SOURCE_C;CortexM3;;;;Clock_4" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Clock_4.h" value="HEADER;;;;;Clock_4" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power_OFF.h" value="HEADER;;;;;Power_OFF" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power_OFF.c" value="SOURCE_C;CortexM3;;;;Power_OFF" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Power_OFF_PM.c" value="SOURCE_C;CortexM3;;;;Power_OFF" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerOFF_aliases.h" value="HEADER;;;;;PowerOFF" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerOFF.c" value="SOURCE_C;CortexM3;;;;PowerOFF" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerOFF.h" value="HEADER;;;;;PowerOFF" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\GEN_OUT_P_aliases.h" value="HEADER;;;;;GEN_OUT_P" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\GEN_OUT_P.c" value="SOURCE_C;CortexM3;;;;GEN_OUT_P" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\GEN_OUT_P.h" value="HEADER;;;;;GEN_OUT_P" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\RST_OUT_P_aliases.h" value="HEADER;;;;;RST_OUT_P" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\RST_OUT_P.c" value="SOURCE_C;CortexM3;;;;RST_OUT_P" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\RST_OUT_P.h" value="HEADER;;;;;RST_OUT_P" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Q_GEN_aliases.h" value="HEADER;;;;;Q_GEN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Q_GEN.c" value="SOURCE_C;CortexM3;;;;Q_GEN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Q_GEN.h" value="HEADER;;;;;Q_GEN" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_ADC" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC.h" value="HEADER;;;;;PowerMonitor_1_ADC" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC_PM.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_ADC" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC_INT.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_ADC" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_PM_AMux_Current.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_PM_AMux_Current" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_PM_AMux_Current.h" value="HEADER;;;;;PowerMonitor_1_PM_AMux_Current" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_PGA.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_PGA" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_PGA.h" value="HEADER;;;;;PowerMonitor_1_PGA" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_PGA_PM.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_PGA" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_PM_AMux_Voltage.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_PM_AMux_Voltage" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_PM_AMux_Voltage.h" value="HEADER;;;;;PowerMonitor_1_PM_AMux_Voltage" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_Dm_aliases.h" value="HEADER;;;;;USBUART_1_Dm" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_Dm.c" value="SOURCE_C;CortexM3;;;;USBUART_1_Dm" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_Dm.h" value="HEADER;;;;;USBUART_1_Dm" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_Dp_aliases.h" value="HEADER;;;;;USBUART_1_Dp" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_Dp.c" value="SOURCE_C;CortexM3;;;;USBUART_1_Dp" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\USBUART_1_Dp.h" value="HEADER;;;;;USBUART_1_Dp" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1_IRQ.c" value="SOURCE_C;CortexM3;;;;ADC_SAR_1_IRQ" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1_IRQ.h" value="HEADER;;;;;ADC_SAR_1_IRQ" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1_theACLK.c" value="SOURCE_C;CortexM3;;;;ADC_SAR_1_theACLK" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\ADC_SAR_1_theACLK.h" value="HEADER;;;;;ADC_SAR_1_theACLK" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC_theACLK.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_ADC_theACLK" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC_theACLK.h" value="HEADER;;;;;PowerMonitor_1_ADC_theACLK" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC_Ext_CP_Clk.c" value="SOURCE_C;CortexM3;;;;PowerMonitor_1_ADC_Ext_CP_Clk" />
+  <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\PowerMonitor_1_ADC_Ext_CP_Clk.h" value="HEADER;;;;;PowerMonitor_1_ADC_Ext_CP_Clk" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\cm3gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cm3RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="G:\DSA\PORIGE\Workspace03\Design01.cydsn\codegentemp\Cm3Start.c" value="SOURCE_C;CortexM3;;;;cy_boot" />
